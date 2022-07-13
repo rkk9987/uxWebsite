@@ -1,0 +1,156 @@
+
+#text_container_section {
+  max-width: 1074px;
+  margin-top: 79px;
+}
+
+#text_container_section {
+  max-width: 1077px;
+  margin: 74px auto;
+}
+
+
+.image_Content_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_text {
+  width: 173px;
+}
+
+.left_content {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  /* line-height: 100px; */
+  color: #000000;
+}
+
+.right_text {
+  width: 710px;
+}
+
+.right_content {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  line-height: 29px;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+/* ----------------Responsive Section ------------------------ */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #text_container_section {
+    
+    margin: 40px auto 0 auto;
+
+    width: 90%;
+  }
+
+  .image_Content_box {
+    flex-direction: column;
+    height: auto;
+  }
+  .left_text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .left_content {
+    display: inline;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+  }
+
+  .right_text {
+    width: 100%;
+    height: auto;
+  }
+
+  .right_content {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  #text_container_section {
+    margin: 30px auto 0 auto;
+    width: 90%;
+  }
+
+  .image_Content_box {
+    flex-direction: column;
+    height: auto;
+  }
+  .left_text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left_content {
+     font-size: 17px;
+    line-height: 50px;
+  }
+
+  .right_text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .right_content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  #text_container_section {
+    width: 90%;
+    margin: 50px auto 0 auto;
+  }
+
+  .left_text {
+    width: 36%;
+  }
+
+  .image_Content_box {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+  }
+
+  .left_content {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .right_text {
+    width: 100%;
+    height: auto;
+    /* margin: 0px 0 0 16%; */
+    margin: 0px 0 0 0;
+  }
+
+  .right_content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 0px;
+  }
+}

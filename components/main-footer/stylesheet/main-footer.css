@@ -1,0 +1,844 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+.footer {
+    width: 100%;
+    background: #000000;
+    margin-top: 115px;
+}
+
+.footer-container {
+    max-width: 1075px;
+    width: 100%;
+    margin: 47px auto 0 auto;
+}
+
+.footer-logo-row {
+    align-items: center;
+    display: flex;
+}
+
+.footer-logo-svg{
+    margin: 0;
+}
+
+img.footer-logo-revised {
+    max-width: 193px;
+    width: 100%;
+    max-height: 87px;
+}
+
+.footer-logo-row-gif{
+    max-height: 163px;
+    height: 47vh;
+    max-width: 163px;
+    width: 100%;
+}
+
+.footer-mentioned-add {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-left: 32px;
+}
+
+.footer-service-container {
+    margin-top: 18px;
+}
+
+.ft-sevice-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+span.ft-services-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.ft-for-margin{
+    margin-top: 15px;
+}
+
+li.ft-service-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+.footer-all-services {
+    display: flex;
+    justify-content: space-between;
+}
+
+span.ft-trining-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 23px;
+}
+
+
+.footer-initiatives-container {
+    margin: 62px 0 0 0;
+}
+
+.ft-initiatives-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.our-community-title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.three-initiatives-CIF {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1039px;
+    width: 100%;
+}
+
+.CIF-campus-ambassador-Program {
+    background: #FFFFFF;
+    border-radius: 15px;
+    max-width: 416px;
+    width: 100%;
+    height: 57px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span.CIF-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.CIF-internships {
+    background: #FFFFFF;
+    border-radius: 15px;
+    max-width: 208px;
+    width: 100%;
+    height: 57px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.CIF-free-online-events {
+    background: #FFFFFF;
+    border-radius: 15px;
+    max-width: 297px;
+    width: 100%;
+    height: 57px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.simple-bottom-line {
+    margin-top: 71px;
+    height: 1px;
+    max-width: 1075px;
+    width: 100%;
+    background: #ffffff;
+}
+
+
+    .project-talent-training-container {
+        margin-top: 39.5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+.first-heading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.lets-talk {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+span.official-mails {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.mail-with-icons-sales {
+    width: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.mail-with-icons-careers {
+    width: 309px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.mail-with-icons-hr {
+    width: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.footer-lets-row {
+    max-width: 1075px;
+    width: 100%;
+    display: none;
+}
+
+ span.lets-row-elements {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.footer-mail-with-icons-none {
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+.mail-with-icons-sales-none {
+    width: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.mail-with-icons-careers-none {
+    width: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+.mail-with-icons-hr-none {
+    width: 283px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+
+span.official-mails-none {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.contact-numbers-container {
+    margin-top: 26px;
+}
+
+.contact-numbers-with-icons {
+    width: 266px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-number {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.contact-numbers-container {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.full-width-line {
+    margin-top: 27px;
+    height: 1px;
+    width: 100%;
+    background: #ffffff;
+}
+
+.footer-social-links-container {
+    margin: 39px auto 27px auto;
+    max-width: 1075px;
+    width: 100%;
+}
+
+.footer-social-links {
+    max-width: 371px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* footer Responsive Code */
+
+@media(min-width:320px) and (max-width:425px) {
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footer-container {
+        max-width: 1075px;
+        width: 90%;
+        margin: 0px auto 0 auto;
+    }
+
+    .footer-mentioned-add {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+        margin-left: 0;
+    }
+
+    .footer-service-container {
+        margin-top: 20px;
+    }
+
+    .footer-all-services {
+        display: grid;
+    }
+
+    .ft-for-margin {
+        margin-top: 10px;
+    }
+
+    .for-resp-margin {
+        margin-bottom: 18px;
+    }
+
+    .our-community-title {
+        text-align: center;
+    }
+
+    .ft-initiatives-name {
+        text-align: center;
+    }
+
+    .footer-initiatives-container {
+        margin: 40px 0 0 0;
+    }
+
+    .three-initiatives-CIF {
+    height: 203px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    }
+
+    span.CIF-text {
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .simple-bottom-line {
+        margin-top: 30px;
+    }
+
+    .first-heading {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .lets-talk {
+        display: none;
+    }
+
+    .mail-with-icons-sales {
+        display: none;
+    }
+
+    .mail-with-icons-careers {
+        display: none;
+    }
+
+    .mail-with-icons-hr {
+        display: none;
+    }
+
+
+    .footer-logo-row-gif {
+        display: none;
+    }
+
+    .footer-lets-row {
+        max-width: 1075px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    span.lets-row-elements {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        display: flex;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    span.official-mails-none {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        color: #FFFFFF;
+        display: flex;
+    }
+
+    .mail-with-icons-sales-none {
+        width: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    img.e-mail-icon {
+        width: 96%;
+    }
+
+    .mail-with-icons-careers-none {
+        width: 262px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .mail-with-icons-hr-none {
+        width: 236px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .footer-mail-with-icons-none {
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .contact-numbers-container {
+        display: grid;
+        justify-content: center;
+        height: 129px;
+    }
+
+    .footer-social-links {
+        width: 70%;
+    }
+
+    .contact-number {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    img.numbers-icon {
+        width: 82%;
+    }
+
+    .contact-numbers-with-icons {
+        width: 222px;
+    }
+
+
+}
+
+@media(min-width:426px) and (max-width:655px) {
+
+    .footer {
+        margin-top: 55px;
+    }
+
+    .footer-container {
+        max-width: 1075px;
+        width: 90%;
+        margin: 0px auto 0 auto;
+    }
+
+    .footer-mentioned-add {
+        font-size: 15px;
+        line-height: 24px;
+        margin-left: 0;
+    }
+
+    .footer-service-container {
+        margin-top: 10px;
+    }
+
+    .footer-all-services {
+        display: grid;
+    }
+
+    .ft-for-margin {
+        margin-top: 10px;
+    }
+
+    .for-resp-margin {
+        margin-bottom: 18px;
+    }
+
+    .our-community-title {
+        text-align: center;
+    }
+
+    .ft-initiatives-name {
+        text-align: center;
+    }
+
+    .footer-initiatives-container {
+        margin: 40px 0 0 0;
+    }
+
+    .three-initiatives-CIF {
+        height: 203px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    span.CIF-text {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .simple-bottom-line {
+        margin-top: 40px;
+    }
+
+    .first-heading {
+        font-size: 12px;
+    }
+
+    .lets-talk {
+        display: none;
+    }
+
+    .mail-with-icons-sales {
+        display: none;
+    }
+
+    .mail-with-icons-careers {
+        display: none;
+    }
+
+    .mail-with-icons-hr {
+        display: none;
+    }
+
+    .footer-lets-row {
+        max-width: 1075px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    span.lets-row-elements {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        display: flex;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    span.official-mails-none {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: #FFFFFF;
+        display: flex;
+    }
+
+    .footer-mail-with-icons-none {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mail-with-icons-sales-none {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .mail-with-icons-careers-none {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .mail-with-icons-hr-none {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .footer-mail-with-icons-none {
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .contact-numbers-container {
+        display: grid;
+        justify-content: center;
+        height: 129px;
+    }
+
+    .footer-social-links {
+        max-width: 371px;
+        width: 70%;
+    }
+
+    .footer-logo-row-gif {
+        height: auto;
+    }
+}
+
+
+@media(min-width:656px) and (max-width:980px) {
+
+    .footer {
+        margin-top: 70px;
+    }
+
+    .footer-container {
+        width: 90%;
+        margin: 0px auto 0 auto;
+    }
+
+    .footer-mentioned-add {
+        margin-left: 0px;
+    }
+
+    span.ft-services-heading {
+        font-size: 15px;
+    }
+
+    li.ft-service-name {
+        font-size: 14px;
+    }
+
+    .ft-initiatives-name {
+        text-align: center;
+    }
+
+    .footer-initiatives-container {
+        margin: 40px 0 0 0;
+    }
+    .three-initiatives-CIF {
+    height: 203px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .simple-bottom-line {
+        margin-top: 55px;
+    }   
+
+    span.CIF-text {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .our-community-title {
+        text-align: center;
+    }
+
+    .first-heading {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .lets-talk {
+        display: none;
+    }
+
+    .mail-with-icons-sales {
+        display: none;
+    }
+
+    .mail-with-icons-careers {
+        display: none;
+    }
+
+    .mail-with-icons-hr {
+        display: none;
+    }
+
+
+    .footer-lets-row {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    span.lets-row-elements {
+        font-size: 20px;
+        line-height: 28px;
+        display: flex;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    span.official-mails-none {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: #FFFFFF;
+        display: flex;
+    }
+
+    .footer-mail-with-icons-none {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mail-with-icons-sales-none {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .mail-with-icons-careers-none {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .mail-with-icons-hr-none {
+        width: 283px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 7px;
+    }
+
+    .footer-mail-with-icons-none {
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .contact-numbers-container {
+        display: grid;
+        justify-content: center;
+        height: 129px;
+    }
+
+    .footer-social-links {
+        max-width: 371px;
+        width: 70%;
+    }
+
+    .footer-logo-row-gif {
+        height: auto;
+    }
+
+}
+
+
+@media(min-width:981px) and (max-width:1024px) {
+
+    .footer {
+        margin-top: 115px;
+    }
+
+    .footer-container {
+        width: 90%;
+        margin: 35px auto 0 auto;
+    }
+
+    .CIF-campus-ambassador-Program {
+        width: 39%;
+    }
+
+    span.CIF-text {
+        font-size: 21px;
+        line-height: 33px;
+    }
+
+    .mail-with-icons-sales {
+        width: 270px;
+    }
+
+    .footer-service-container {
+        margin-top: 25px;
+    }
+}
+
+
+@media(min-width:1025px) and (max-width:1195px) {
+
+    .footer-container {
+        width: 90%;
+        margin: 47px auto 0 auto;
+    }
+
+    .CIF-campus-ambassador-Program {
+        width: 41%;
+    }
+}

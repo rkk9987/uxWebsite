@@ -1,0 +1,306 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.google_sec{
+    margin:139px auto 0 auto;
+    width:100%;
+    max-width:1075px;
+
+}
+.google_part{
+    display:flex;
+}
+.red_border{
+    width:35px;
+
+}
+.redline{
+    width: 11px;
+    height: 56px;
+    background: #FF0000;
+  
+}
+.google_head{
+    width: 1050px;
+    height: auto;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 118.1%;
+    color: #000000;
+}
+.google_red{
+    color: #FF0000;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height:136%;
+}
+.story_sec{
+    margin:39px auto 0 auto;
+    max-width:1003px;
+    width:100%;
+
+}
+
+.story_head{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+    color: #000000;
+}
+.story_red{
+    color:#FF0000;
+}
+.story_part2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 604px;
+    margin-top: 29px;
+}
+.member_no{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.member_name{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 43px;
+    color: #000000;
+}
+@media (min-width:320px) and (max-width:425px){
+    .google_sec{
+        margin: 40px 10px 0 10px;
+        width: auto;
+    
+    }
+    .red_border{
+        width:16px;
+        display: flex;
+    justify-content: flex-end;
+    
+    }
+    .redline{
+        width: 11px;
+        height: 44px;
+
+    }
+    .google_head{
+        font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    text-align:center;
+    max-width: 300px;
+    margin: auto;
+    width:87%;
+    }
+    .google_red{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 134%;
+    }
+    .story_sec{
+        max-width: 301px;
+    width: 94%;
+    margin: 30px auto;
+    text-align: center;
+    
+    }
+    .story_head {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 42px;
+        color: #000000;
+    }
+    .member_name {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 25px;
+        color: #000000;
+    }
+}
+@media (min-width:425px) and (max-width:768px){
+    .google_sec{
+        margin: 40px 20px 0 20px;
+        width: auto;
+    
+    }
+    .red_border {
+        width: 5%;
+        max-width: 50px;
+    }
+
+    .redline {
+        width: 11px;
+        height: 47px;
+        background: #FF0000;
+    }
+    .google_head {
+        /* max-width: 752px; */
+        width: 100%;
+        height: auto;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 108.1%;
+        color: #000000;
+    }
+    .google_red {
+        color: #FF0000;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 136%;
+    }
+    
+    .story_sec {
+        margin: 55px 30px 0px 30px;
+    max-width: 557px;
+    width: auto;
+    }
+    .story_part1 {
+        margin: 0px 0 0 20px;
+        max-width: 770px;
+        width: 94%;
+    }
+    .story_part2 {
+        margin: 0px 0 0 20px;
+    max-width: 550px;
+    width: 66%;
+    }
+    .story_head{
+        font-size: 34px;
+    }
+    .member_name {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+    }
+
+
+}
+@media (min-width:768px) and (max-width:1024px){
+    .google_sec{
+        margin: 40px 20px 0 20px;
+        width: auto;
+    
+    }
+    .red_border {
+        width: 5%;
+        max-width: 50px;
+    }
+
+    .redline {
+        width: 11px;
+        height: 47px;
+        background: #FF0000;
+    }
+    .google_head {
+        max-width: 752px;
+        width: 100%;
+        height: auto;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 133.1%;
+        color: #000000;
+    }
+    .google_red {
+        color: #FF0000;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 136%;
+    }
+    
+    .story_sec {
+        margin: 55px 40px 0px 40px;
+        max-width: 768px;
+        width: 100%;
+    }
+    .story_part1 {
+        margin: 0px 0 0 20px;
+        max-width: 770px;
+        width: 94%;
+    }
+    .story_part2 {
+        margin: 15px 0 0 20px;
+    max-width: 550px;
+    width: 73%;
+    }
+    .story_head{
+        font-size: 36px;
+        line-height: 49px;
+    }
+    .member_name {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    }
+
+
+}
+ @media (min-width:1024px) and (max-width:1070px){
+    .google_sec{
+        margin: 139px 20px 0 20px;
+        width: auto;
+    
+    }
+    .red_border {
+        width: 5%;
+        max-width: 50px;
+    }
+
+    .redline {
+        width: 11px;
+        height: 47px;
+        background: #FF0000;
+    }
+    
+    
+    .story_sec {
+        margin: 55px 45px 0px 45px;
+        max-width: 768px;
+        width: 100%;
+    }
+    .story_part1 {
+        margin: 0px 0 0 20px;
+        max-width: 770px;
+        width: 94%;
+    }
+    .story_part2 {
+        margin: 15px 0 0 20px;
+    max-width: 550px;
+    width: 73%;
+    }
+    
+
+
+} 

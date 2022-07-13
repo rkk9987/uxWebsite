@@ -1,0 +1,348 @@
+@media screen  and (max-width: 425px){
+    /* styles */
+    .BoxContainer1{
+        width: 95%;
+        
+            margin-top: 40px;
+    }
+    
+    .rowBoxContainer2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .rowBoxContainer4 {
+        margin-top: 40px;
+    }
+    .divsubBoxConatainer1 {
+       
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+    .divsubBoxConatainer2 {
+     
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }   
+    
+.iconsRow {
+
+    margin-bottom: 25px;
+} 
+
+    .rowBoxContainer1{
+        flex-direction: column;
+     
+       
+    }
+    .headingBoxk1{
+        overflow: hidden;
+    }
+    .paragraphBoxk1 p{
+        padding: 10px 5px;
+        font-size: 18px
+       
+    }
+    .rowBoxContainer2{
+        flex-direction: column;
+    }
+    .paragraphBoxk2 p{
+        padding: 10px 5px;
+        font-size: 18px
+       
+    }
+    .paragraphBoxk1{
+        width: 100%;
+    }
+    .headingBoxk2 {
+        overflow: hidden;
+    }
+    .paragraphBoxk2{
+       
+        width: 100%;
+    }
+    .rowBoxContainer3{
+        flex-direction: column;
+    }
+    .rowBoxcotainer31{
+        width: 100%;
+        padding: 10px 5px;
+    
+    }
+    .divsubBoxConatainer1{
+        /* justify-content: space-evenly; */
+        column-gap: 14px;
+    }
+    .divsubBoColork1{
+        width: 85px;
+        height: 55px;
+    }
+    .divsubBoColork2{
+        width: 85px;
+        height: 55px;
+    }
+    .divBoxColork1 span {
+        margin-left: 5px;
+        font-size: 14px
+    }
+    .divsubBoxConatainer2{
+        width: 99%;
+        column-gap: 5px
+        /* justify-content: space-evenly; */
+    }
+    .colorBoxk span{
+        font-size: 13px;
+    }
+    .coloBoxk1{
+        width: 45px;
+        height: 67px;
+    
+    }
+    .coloBoxk2{
+        width: 45px;
+        height: 67px;
+    }
+    .coloBoxk3{
+        width: 45px;
+    height: 67px;
+    }
+    .colorBoxConk1 span {
+        margin-left: 3px;
+    }
+    .colorBoxConk2 span{
+        margin-left: 7px;
+    }
+    .colorBoxConk3 span {
+        margin-left: 9px;
+    }
+    .letterDesk1 {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .A100{
+        font-size: 55px;
+    }
+    .A50{
+        font-size: 22px;
+        margin-left: 5px;
+
+    }
+    .textMutedk{
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .textk1{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .letterDesk2{
+        display: flex;
+        flex-direction: column;
+    }
+    .textk2{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .rowBoxContainer4{
+        flex-direction: column;
+    }
+    .iconsContainer{
+        width: 100%;
+        padding: 20px 5px;
+    }
+    .iconBoxk {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    /* styles */
+    .BoxContainer1{
+        width: 95%;
+        margin-top: 40px;
+    }
+     
+    .rowBoxContainer2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .rowBoxContainer4 {
+        margin-top: 40px;
+    }
+    .divsubBoxConatainer1 {
+       
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+    .divsubBoxConatainer2 {
+     
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }   
+    
+.iconsRow {
+
+    margin-bottom: 25px;
+}
+    .rowBoxContainer1{
+        flex-direction: column;
+     
+       
+    }
+    .headingBoxk1{
+        overflow: hidden;
+    }
+    .paragraphBoxk1 p{
+        padding: 10px 5px;
+       
+    }
+    .rowBoxContainer2{
+        flex-direction: column;
+    }
+    .paragraphBoxk2 p{
+        padding: 10px 5px;
+       
+    }
+    .paragraphBoxk1{
+        width: 100%;
+    }
+    .headingBoxk2 {
+        overflow: hidden;
+    }
+    .paragraphBoxk2{
+       
+        width: 100%;
+    }
+    .rowBoxContainer3{
+        flex-direction: column;
+    }
+    .rowBoxcotainer31{
+        width: 100%;
+        padding: 10px 5px;
+    
+    }
+    .divsubBoxConatainer1{
+        /* justify-content: space-evenly; */
+        column-gap: 20px;
+    }
+    .divBoxColork1 span{
+        font-size: 14px;
+    }
+    .divsubBoColork1{
+        width: 115px;
+        height: 75px;
+    }
+    .divsubBoColork2{
+        width: 115px;
+        height: 75px;
+    }
+    .divBoxColork1 span {
+        margin-left: 16px;
+    }
+    .divsubBoxConatainer2{
+        width: 93%;
+        column-gap: 10px;
+        /* justify-content: space-evenly; */
+    }
+    .colorBoxk span{
+        font-size: 14px;
+    }
+    .coloBoxk1{
+        width: 70px;
+        height: 100px;
+    
+    }
+    .coloBoxk2{
+    width: 70px;
+    height: 100px;
+    }
+    .coloBoxk3{
+        width: 70px;
+    height: 100px;
+    }
+    .colorBoxConk1 span {
+        margin-left: 5px;
+    }
+    .colorBoxConk2 span{
+        margin-left: 9px;
+    }
+    .colorBoxConk3 span {
+        margin-left: 13px;
+    }
+    .letterDesk1 {
+        margin-bottom: 17px;
+        display: flex;
+        flex-direction: column;
+    }
+    .textMutedk{
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .textk1{
+        font-size: 19px;
+        margin-left: 5px;
+    }
+    .letterDesk2{
+        display: flex;
+        flex-direction: column;
+    }
+    .textk2{
+        font-size: 19px;
+        margin-left: 5px;
+    }
+    .rowBoxContainer4{
+        flex-direction: column;
+    }
+    .iconsContainer{
+        width: 100%;
+        padding: 20px 5px;
+    }
+ 
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /* styles */
+    .BoxContainer1{
+        width: 95%;
+    }
+    .paragraphBoxk1{
+        width: 75%;
+    }
+    .paragraphBoxk2{
+       
+        width: 75%;
+    }
+    .rowBoxcotainer31{
+        width: 75%;
+    }
+    .divsubBoColork1{
+        width: 170px;
+    }
+    .divsubBoColork2{
+        width: 170px;
+    }
+    .divBoxColork1 span {
+        margin-left: 16px;
+    }
+    .divsubBoxConatainer2{
+        width: 99%;
+    }
+    .textMutedk{
+        font-size: 23px;
+    }
+    .textk1{
+        font-size: 23px;
+        margin-left: 39px;
+    }
+    .textk2{
+        font-size: 23px;
+    }
+    .iconsContainer{
+        width: 75%;
+    }
+
+}
+@media screen and (min-width: 1025px){
+    .BoxContainer1{
+        width: 100%;
+    }
+}

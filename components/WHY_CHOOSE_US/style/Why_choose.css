@@ -1,0 +1,379 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.why_to_chooseus {
+    max-width: 1075px;
+    width: 90%;
+    margin: 132px auto 0 auto;
+    height: 230px;
+    overflow-y: hidden;
+}
+
+
+.chooseus {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.why_choose_us_heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 103.9%;
+    color: #000000;
+    margin-top: 6px;
+    height: 47px;
+    overflow: hidden;
+}
+
+.why_choose_info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-top: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    height: 143px;
+}
+
+.best_things {
+    max-width: 1075px;
+    width: 90%;
+    /* height: 450px; */
+    margin: 60px auto 0 auto;
+}
+
+.innovation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+}
+
+.innovation_heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.experience_heading,
+.shippability_heading,
+.transparency_heading,
+.dedicated_heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.innovation_textp {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    width: 539px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+}
+
+.ecperience_textp,
+.shippability_textp,
+.transparency_textp,
+.dedicated_textp {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    width: 539px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+}
+
+.experience,
+.dedicated_teams,
+.shippability,
+.transparency {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 45px;
+    overflow-y: hidden;
+}
+
+
+
+/********* RESPONSIVE CSS ***********/
+@media screen and (max-width:1440px) {
+    .why_to_chooseus {
+        margin: 132px auto 0 auto;
+        height: auto;
+    }
+
+    /* .whycontainer {} */
+
+    .chooseus {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+    .why_choose_us_heading {
+        font-size: 40px;
+        line-height: 103.9%;
+        margin-top: 6px;
+        height: 49px;
+    }
+}
+@media screen and (max-width:1158px){
+    .why_choose_info{
+        height: 170px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .why_to_chooseus {
+        margin: 70px auto 0 auto;
+        height: 230px;
+    }
+
+    .chooseus {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .why_choose_us_heading {
+        font-size: 32px;
+        line-height: 103.9%;
+        margin-top: 6px;
+        height: 43px;
+    }
+
+    .why_choose_info {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .best_things {
+        height: auto;
+    }
+
+    .innovation {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .innovation_heading {
+        font-size: 23px;
+        line-height: 20px;
+    }
+
+    .experience_heading,
+    .shippability_heading,
+    .transparency_heading,
+    .dedicated_heading {
+        font-size: 23px;
+        line-height: 20px;
+    }
+
+    .innovation_textp {
+        font-size: 17px;
+        line-height: 17px;
+        width: 60%;
+    }
+
+    .ecperience_textp,
+    .shippability_textp,
+    .transparency_textp,
+    .dedicated_textp {
+        font-size: 17px;
+        line-height: 17px;
+        width: 60%;
+    }
+
+    .experience,
+.dedicated_teams,
+.shippability,
+.transparency {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .why_to_chooseus {
+        margin: 55px auto 0 auto;
+        height: auto;
+    }
+
+    .chooseus {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .why_choose_us_heading {
+        font-size: 24px;
+        line-height: 103.9%;
+        margin-top: 6px;
+        height: 52px;
+        overflow-y: hidden;
+    }
+
+    .why_choose_info {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 9px;
+        height: 120px;
+        display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+
+    .best_things {
+        height: auto;
+    }
+
+    .innovation {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .innovation_heading {
+        font-size: 19px;
+        line-height: 19px;
+    }
+
+    .experience_heading,
+    .shippability_heading,
+    .transparency_heading,
+    .dedicated_heading {
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .innovation_textp {
+        font-size: 14px;
+        line-height: 18px;
+        width: 60%;
+    }
+
+    .ecperience_textp,
+    .shippability_textp,
+    .transparency_textp,
+    .dedicated_textp {
+        font-size: 14px;
+        line-height: 18px;
+        width: 60%;
+        ;
+    }
+
+    .experience,
+    .dedicated_teams,
+    .shippability,
+    .transparency {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .why_to_chooseus {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .chooseus {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .why_choose_us_heading {
+
+        font-size: 16px;
+        line-height: 103.9%;
+        margin-top: 3px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .why_choose_info {
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 10px;
+        height: 106px;
+    }
+
+    .best_things {
+        height: auto;
+    }
+
+    .innovation {
+        flex-direction: column;
+    }
+
+    .innovation_heading {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    .experience_heading,
+    .shippability_heading,
+    .transparency_heading,
+    .dedicated_heading {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    .innovation_textp {
+        font-size: 12px;
+        line-height: 18px;
+        width: auto;
+    }
+
+    .ecperience_textp,
+.shippability_textp,
+.transparency_textp,
+.dedicated_textp {
+        font-size: 12px;
+        line-height: 18px;
+        width: auto;
+    }
+
+    .experience,
+    .dedicated_teams,
+    .shippability,
+    .transparency {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,160 @@
+@media screen and (max-width:1440px) {
+    .ourrecentclient {
+        margin-top: 90px;
+        margin-left: 171px;
+        margin-right: 190px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .ourrecentclient {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .ourclients {
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+
+    .worksetup {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    .ourclientcard {
+        overflow-x: scroll;
+    }
+
+    .clientcard1,
+    .clientcard2,
+    .clientcard3 {
+        margin-top: 41px;
+        width: 231px;
+        height: 300px;
+    }
+
+    .clientcard1 img,
+    .clientcard2 img,
+    .clientcard3 img {
+        width: 140px;
+        height: 150px;
+        margin-top: 28px;
+    }
+
+    .clientcompanyname,
+    .clientbrandname {
+        font-size: 20.50px;
+        line-height: 178%;
+    }
+
+    .ourrecentclient {
+        margin-top: 90px;
+        margin-left: 60px;
+        margin-right: 60px;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+
+    .ourclients {
+        font-size: 24px;
+        line-height: 27px;
+    }
+
+    .worksetup {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+
+    .ourclientcard {
+        overflow-x: scroll;
+    }
+
+    .clientcard1,
+    .clientcard2,
+    .clientcard3 {
+        margin-top: 35px;
+        width: 207px;
+        height: 258px;
+    }
+
+    .clientcard1 img,
+    .clientcard2 img,
+    .clientcard3 img {
+        width: 112px;
+        height: 140px;
+        margin-top: 28px;
+    }
+
+    .clientcompanyname,
+    .clientbrandname {
+        font-size: 16px;
+        line-height: 31px;
+        margin-top: -1px;
+    }
+
+    .ourrecentclient {
+        margin-top: 50px;
+        margin-left: 32px;
+        margin-right: 34px;
+        justify-content: flex-start;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    /* .clientheading{
+        margin-left: 10px;
+    } */
+
+    .ourclients {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .worksetup {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .clientcard1,
+    .clientcard2,
+    .clientcard3 {
+        margin-top: 27px;
+        width: 153px;
+        height: 203px;
+    }
+
+    .ourclientcard {
+        overflow-x: scroll;
+    }
+
+    .clientcard1 img,
+    .clientcard2 img,
+    .clientcard3 img {
+        width: 91px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .clientcompanyname,
+    .clientbrandname {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .ourrecentclient {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: flex-start;
+    }
+}

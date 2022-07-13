@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.featureComponent {
+    width: 100%;
+    margin-top: 101px;
+}
+
+.featureComponentContainer {
+    width: 100%;
+    max-width: 1074px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureComponentUpContainer {
+    width: 90%;
+    max-width: 1074px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureComponentHeading {
+    width: 100%;
+    height: 55px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.featureComponentDescription {
+    max-width: 933px;
+    width: 90%;
+    height: 103px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.featureComponentDownContainer {
+    width: 90%;
+    max-width: 1074px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.featureCards {
+    max-width: 486px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.featureLeftBox {
+    /* width: 45%;
+    max-width: 200px; */
+    border-radius: 50%;
+    height: 195px;
+    width: 195px;
+    overflow: hidden;
+}
+
+.imgContainer{
+    width: 100%;
+}
+.imgContainer img{
+    width: 100%;
+    height: 100%;
+}
+.featureRightBox {
+    width: 60%;
+    max-width: 258px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featureRightHeading {
+    width: 256px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+.featureRightDescription {
+   
+    width: 98%;
+    height: auto;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+/* Responsive */
+
+@media (min-width:320px) and (max-width:425px) {
+
+    .featureComponent {
+        margin-top: 40px;
+    }
+
+    .featureComponentDownContainer{
+        width: 98%;        
+        }
+    
+        .featureComponentHeading{
+    
+            font-size: 21px;
+            height: 55px;
+        }
+        .featureComponentDescription {
+            height: 95px;
+            font-size: 14px;
+            margin-top: 0px;
+            line-height: 20px;
+        }
+    
+        .featureComponentDownContainer{
+            margin-top: 11px;
+        }
+        .featureCards {
+            width: 90%;
+            min-width: 296px;
+            height: 100px;
+            max-width: 404px;
+            margin: auto;
+    
+        }
+    
+        .featureLeftBox {
+    
+            width: 66px;
+    height: 66px;
+        }
+
+        .featureRightBox{
+            width: 65%;
+        }
+    
+        .featureRightHeading{
+            font-size: 11px;
+        }
+            .featureRightDescription{
+                max-width: 223px;
+        width: 100%;
+        height: auto;
+        font-size: 9px;
+    line-height: 12px;
+            }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:425px) and (max-width:769px) {
+
+    .featureComponentDownContainer{
+    width: 90%;   
+    margin-top: 22px;     
+    }
+
+    .featureComponentHeading{
+
+        font-size: 34px;
+    }
+    .featureComponentDescription {
+        height: 132px;
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    
+    .featureCards {
+        width: 47%;
+        min-width: 316px;
+        height: 142px;
+        max-width: 404px;
+        margin: auto;
+
+    }
+
+    .featureLeftBox {
+
+        width: 96px;
+        height: 96px;
+    }
+    .featureRightHeading{
+        font-size: 14px;
+    }
+        .featureRightDescription{
+            max-width: 223px;
+    height: auto;
+    width: 100%;
+        }
+     
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .featureRightBox {
+        width: 65%;
+        max-width: 258px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .featureComponentDescription {
+        height: 99px;
+        width: 100%;
+    }
+
+    .featureCards {
+        width: 47%;
+        min-width: 386px;
+        height: 166px;
+        max-width: 404px;
+        margin: auto;
+
+    }
+
+    .featureLeftBox {
+
+        width: 119px;
+        height: 119px;
+    }
+
+    .imgContainer img {
+        width: 100%;
+        height: 100%;
+    
+    }
+}

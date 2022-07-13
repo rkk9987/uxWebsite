@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.whytochooseus {
+    max-width: 1075px;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 132px auto 0 auto;
+    height: 230px;
+}
+
+/* .whycontainer {} */
+
+.chooseus {
+    /* border: 1px solid blue; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    /* margin-top: 0px; */
+}
+
+.whychooseusheading {
+    /* border: 1px solid saddlebrown; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 103.9%;
+    color: #000000;
+    margin-top: 6px;
+    height: 47px;
+}
+
+.whychooseinfo {
+    /* border: 1px solid yellowgreen; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-top: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.bestthings {
+    max-width: 1075px;
+    width: 90%;
+    height: 420px;
+    margin: 60px auto 0 auto;
+}
+
+.innovation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+}
+
+.innovationheading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.experienceheading,
+.shippabilityheading,
+.transparencyheading,
+.dedicatedheading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.innovationtextp {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    width: 539px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.ecperiencetextp,
+.shippabilitytextp,
+.transparencytextp,
+.dedicatedtextp {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    width: 539px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.experience,
+.dedicatedteams,
+.shippability,
+.transparency {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 45px;
+}
+
+/* .shippability{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 45px;
+}
+.transparency{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 45px;
+}
+.dedicatedteams{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 45px;
+} */

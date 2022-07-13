@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500&display=swap');
+
+* {
+    overflow-x: hidden;
+}
+
+.containerBox1k {
+    display: flex;
+    justify-content: center;
+    margin-top: 166px;
+
+
+}
+
+.rowContainer1k {
+
+    margin-inline: 10px;
+    max-width: 932px;
+    width: 84%;
+    max-height: 134px;
+    box-sizing: border-box;
+    display: flex;
+
+    background: #A7E5FF;
+    border-radius: 25px;
+}
+
+.chilldBoxk {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    box-sizing: border-box;
+
+
+}
+
+.chilldBoxk span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    max-height: 90px;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+
+
+}
+
+.chilldBoxk p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.8868px;
+    /* font-size: clamp(10.8868px, 13.8868px); */
+    line-height: 19px;
+    max-height: 65px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+
+}
+
+.childBox1k {
+    max-width: 210px;
+    width: 100%;
+    border-right: 1px solid #000000;
+    padding-left: 21px;
+
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.childBox1k span {
+    /* padding-top: 10px; */
+    /* max-height: 69px; */
+}
+
+.childBox1k p {
+    /* padding-top: 2px; */
+    /* margin-top: 3px; */
+}
+
+
+
+.childBox2k {
+    max-width: 246px;
+    width: 100%;
+    border-right: 1px solid #000000;
+}
+
+.childBox3k {
+    max-width: 251px;
+    width: 100%;
+    border-right: 1px solid #000000;
+}
+
+.childBox4k {
+    max-width: 225px;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 320px) {
+    .chilldBoxk {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .chilldBoxk span {
+        font-size: 24px;
+        height: 56%;
+        overflow: hidden;
+    }
+
+    .chilldBoxk p {
+        font-size: 10px;
+        height: 70%;
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .childBox1k {
+        padding-left: 5px;
+    }
+
+    .childBox1k span {
+        padding-top: 4px;
+        padding-right: 2px;
+    }
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
+    /* styles */
+    .chilldBoxk {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .chilldBoxk span {
+        font-size: 24px;
+        height: 56%;
+        overflow: hidden;
+    }
+
+    .chilldBoxk p {
+        font-size: 11px;
+        height: 53%;
+        width: 100%;
+        overflow: hidden;
+        line-height: 15px;
+    }
+
+    .childBox1k {
+        padding-left: 5px;
+    }
+
+    .childBox1k span {
+        padding-top: 4px;
+        padding-right: 2px;
+    }
+
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .chilldBoxk span {
+
+        font-size: 26px;
+        height: 80%;
+        padding-top: 10px;
+        overflow: hidden;
+
+
+    }
+
+    .chilldBoxk p {
+        height: 75%;
+        font-size: 11.8868px;
+        /* margin-inline:auto ; */
+        padding-left: 5px;
+        padding-right: 5px;
+        overflow: hidden;
+    }
+
+    .childBox1k {
+        padding-left: 0;
+    }
+
+    /* styles */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* styles */
+    .chilldBoxk span {
+        height: 110px;
+        padding: 6px;
+    }
+
+    .chilldBoxk p {
+        height: 66%;
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 1025px) {
+    .chilldBoxk span {
+        height: 100%;
+        padding: 6px;
+        overflow: hidden;
+    }
+
+    .chilldBoxk p {
+        height: 65%;
+        margin-bottom: 1rem;
+
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .containerBox1k {
+        margin-top: 40px;
+    }
+}

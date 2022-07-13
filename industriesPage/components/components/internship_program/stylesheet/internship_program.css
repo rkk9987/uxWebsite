@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+
+section#internship_program {
+    margin: 130px auto 0 auto;
+    width: 72%;
+    max-width: 1075px;
+}
+
+.SFOURTH_heding {
+    width: 94%;
+    max-width: 868px;
+    margin: auto;
+    text-align: center;
+}
+
+.SFOURTH_summary {
+    width: 95%;
+    max-width: 933px;
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.SFOURTH_head_text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.SFOURTH_summary_text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.SFOURTH_cards {
+    margin: 36px auto 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1075px;
+    justify-content: space-between;
+}
+
+.Learn-from-experts {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Master-your-trade {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Get-certified {
+    width: 70%;
+    max-width: 156px;
+}
+
+.SFOURTH_card1_img {
+    text-align: center;
+}   
+
+.SFOURTH_card2_img {
+    text-align: center;
+}
+
+.SFOURTH_card3_img {
+    text-align: center;
+}
+
+.SFOURTH_card1_text {
+    text-align: center;
+}
+
+span.SFOURTH_card1_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.SFT_C1_summary {
+    max-width: 230px;
+    width: 97%;
+    margin: auto;
+}
+
+span.SFOURTH_card1_summary {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+span.SFOURTH_card2_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.SFT_C2_summary {
+    max-width: 230px;
+    width: 95%;
+    margin: auto;
+}
+
+.SFOURTH_card2_text {
+    text-align: center;
+}
+
+
+.SFOURTH_card3_text {
+    text-align: center;
+}
+
+span.SFOURTH_card3_summary {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+span.SFOURTH_card2_summary {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+span.SFOURTH_card3_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}   
+
+.SFT_C3_summary {
+    max-width: 230px;
+    width: 78%;
+    margin: auto;
+}
+
+
+/* Responsive */
+
+@media (min-width:320px ) and (max-width:425px){
+
+    section#internship_program {
+        margin: 40px auto 0 auto;
+        width: 90%;
+        max-width: 1075px;
+    }
+
+    .SFOURTH_head_text {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 34px;
+    }
+
+    .SFOURTH_summary_text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .SFOURTH_cards {
+        margin: 0px auto 0 auto;
+        display: grid;
+        width: 100%;
+        max-width: 1075px;
+        justify-content: center;
+    }
+
+    .SFOURTH_card2 {
+        margin-top: 10px;
+    }
+
+    .SFOURTH_card3 {
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 425px ) and (max-width: 520px){
+    #internship_program {
+        margin: 40px auto 0 auto !important;
+        width: 80% !important;
+        max-width: 1075px !important;
+    }
+    
+    .SFOURTH_head_text {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 35px;
+    }
+    
+    .SFOURTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    
+    .SFOURTH_summary {
+        margin-top: 10px;
+    }
+    .SFOURTH_cards {
+        flex-direction: column;
+        margin: 5px auto 0 auto;
+    }
+
+}
+
+
+@media (min-width: 521px ) and (max-width: 768px){
+    section#internship_program {
+        margin: 40px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+    
+    .SFOURTH_head_text {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 35px;
+    }
+    
+    .SFOURTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    
+    .SFOURTH_summary {
+        margin-top: 10px;
+    }
+
+    span.SFOURTH_card1_heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    span.SFOURTH_card2_heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    span.SFOURTH_card3_heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+}
+
+
+@media (min-width:769px ) and (max-width:1024px){
+
+section#internship_program {
+    margin: 55px auto 0 auto;
+    width: 80%;
+    max-width: 1075px;
+}
+
+.SFOURTH_head_text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.SFOURTH_summary_text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 33px;
+}
+
+}

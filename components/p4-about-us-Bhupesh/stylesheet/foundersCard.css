@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+ 
+ 
+
+.FDR_ourTeamCards{
+
+    width: 32%;
+    max-width: 274px;
+    background: #F7F4BA;
+border-radius: 15px;
+height: 355px;
+margin: 0px 91px 0px 0;
+display: flex;
+    
+}
+
+.FDR_teamCardContainer{
+    width: 86%;
+    display:flex;
+    flex-direction: column;
+    height: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 89%;
+    padding-top: 24px;
+}
+.FDR_teamImg{
+    width: 60%;
+    max-width:136px;
+    border-radius: 50%;
+    height:136px;
+    background: #FFFFFF;
+}
+
+.FDR_teamImg img{
+    width: 100%;
+}
+.FDR_teamName{
+    font-weight: 500;
+font-size: 24px;
+line-height: 178.62%;
+/* identical to box height, or 43px */
+
+text-align: center;
+width: 100%;
+color: #000000;
+}
+
+.FDR_teamDesignation{
+    font-weight: 400;
+font-size: 16px;
+line-height: 151.12%;
+/* or 24px */
+
+text-align: center;
+width: 100%;
+color: #000000;
+}
+
+.FDR_iconContainer{
+    width: 70%;
+    max-width: 94px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.FDR_iconContainer a{
+    width: 30%;
+    max-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.FDR_iconContainer img{
+
+    width: 95%
+}
+
+
+.FDR_founders-cards {
+    max-width: 1075px;
+    width: 100%;
+    display: flex;
+    margin: 93px 0 0 0;
+}
+
+
+/* responsive css Cards */
+
+@media (min-width:1024px ) and (max-width:1196px){
+    .FDR_ourTeamCards {
+         
+        margin: 0 45px 45px 0;
+        
+    }
+    .FDR_ourTeamCards {
+        width: 28%;
+         
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    
+ 
+    .FDR_ourTeamCards {  width: 32%;
+        max-width: 240px;
+        
+        height: 320px;
+        margin: 0 34px 30px 0;
+         
+    }
+
+    .FDR_teamImg {
+        width: 60%;
+        max-width: 110px;
+        border-radius: 50%;
+        height: 110px;
+        background: #FFFFFF;
+    }
+    
+}
+@media (min-width:769px) and (max-width:914px){
+
+    .FDR_ourTeamCards {   
+        margin: 0 1% 1% 0;
+         
+    }
+    
+}
+
+
+@media (min-width:425px) and (max-width:769px){
+
+    .FDR_founders-cards {
+        max-width: 1075px;
+        width: 100%;
+        display: flex;
+        margin: 55px 0 0 0;
+    }
+     
+
+    .FDR_ourTeamCards {
+        width: 41%;
+        max-width: 160px;
+        height: 230px;
+        margin: 0 14px 14px 0;
+    }
+    .FDR_teamImg {
+        width: 60%;
+        max-width: 66px;
+        border-radius: 50%;
+        height: 66px;
+        background: #FFFFFF;
+    }
+
+    .FDR_teamName {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 129.62%;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+    .FDR_teamDesignation {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+
+    .FDR_teamCardContainer {
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 89%;
+        padding-top: 0px;
+    }
+}
+
+
+
+ 
+
+@media (min-width:320px) and (max-width:425px){
+
+    
+    
+   .FDR_ourTeamCards {
+        width: 41%;
+        min-width: 133px;
+        max-width: 140px;
+        height: 200px;
+        margin: 15px 10px 10px 0;
+    }
+    .FDR_teamImg {
+        width: 60%;
+        max-width: 66px;
+        border-radius: 50%;
+        height: 66px;
+        background: #FFFFFF;
+    }
+.FDR_teamName {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 131.62%;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+.FDR_teamDesignation {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 141.62%;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+
+    .FDR_founders-cards {
+        max-width: 1075px;
+        width: 100%;
+        display: flex;
+        margin: 25px 0 0 0;
+        flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .FDR_teamCardContainer {
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 92%;
+        padding-top: 10px;
+        flex-wrap: wrap;
+    }
+}

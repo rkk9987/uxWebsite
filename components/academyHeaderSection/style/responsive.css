@@ -1,0 +1,220 @@
+@media (min-width:320px) and (max-width:425px){
+
+    .academyHeader{
+        height: 932px;
+    }
+    .academyHeader::before{
+  
+        height: 993px; 
+        
+        }
+    .headerUpContainer{
+
+        height: 796px;
+    }
+    .upContainerBox{
+        height: 572px;
+    }
+      
+    .headerBox{
+        height: 459px;
+    }
+    .HeaderTitle{
+        height: 125.19px;
+        max-width: 330px;
+    }
+
+    .joinPart{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .onlinePart{
+        font-size: 28px;
+    line-height: 36px;
+    }
+    
+    .paraBox{
+        margin-top: 0;
+        height: 300px;
+    }
+
+    .paraBox p{
+        font-size: 16px;
+    }
+
+    .buttonBox{
+        width: 100%;
+        max-width: 532px;
+        height: 108px;
+        flex-direction: column;
+    }
+    .whatsappButton, .facebookButton{
+        width: 95%;
+    height: 43px;
+    }
+    .titlePartBox{
+        font-size: 14px;
+    }
+       .downBox{
+           height: 92px;
+       }
+    .downBoxSubContainer{
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+       
+    .imgPartBox{
+        width: 100%;
+        max-width: 369px;
+       }
+    .imgPartBox img{
+        width: 35px;
+    }
+    .headerDownContainer marquee{
+        bottom: -5px;
+    }
+    .marqueePara{
+        font-size: 14px;
+    }
+}
+@media (min-width:425px) and (max-width:769px){
+    
+
+
+
+
+
+
+    .headerUpContainer{
+
+        height: 850px;
+    }
+    .upContainerBox{
+        height: 607px;
+    margin-top: 100px;
+    }
+      
+    .headerBox{
+        height: 682px;
+    }
+    .HeaderTitle{
+        height: 258.19px;
+    max-width: 482px;
+    }
+
+    .joinPart{
+        font-size: 45px;
+        line-height: 49px;
+    }
+    .onlinePart{
+        font-size: 41px;
+        line-height: 42px;
+    }
+    
+    .paraBox{
+        margin-top: 0;
+        height: 443px;
+        max-width: 597px;
+    }
+
+    .paraBox p{
+        font-size: 21px;
+    }
+
+    .buttonBox{
+        width: 100%;
+        max-width: 532px;
+        height: 100px;
+    }
+    .whatsappButton, .facebookButton{
+        width: 45%;
+    height: 53px;
+    }
+
+    .whatsappButton img, .facebookButton img {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .whatsappTitle , .facebookTitle{
+        font-size: 14px;
+    }
+    .titlePartBox{
+        font-size: 17px;
+    }
+
+    .downBoxSubContainer{
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+       
+    .imgPartBox{
+        width: 100%;
+        max-width: 280px;
+        height: 50px;
+       }
+    .imgPartBox img{
+        width: 45px;
+    }
+    .headerDownContainer marquee{
+        bottom: -5px;
+    }
+    .marqueePara{
+        font-size: 15px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    
+    .academyHeader{
+        height: 930px;
+    }
+    .headerUpContainer{
+        height: 751px;
+    }
+    .academyHeader::before{
+        
+        height: 913px; 
+        
+        }
+
+        .headerBox{
+            height: 382px;
+    margin-top: 37px;
+        }
+    .HeaderTitle{
+        max-width: 637px;
+        height: 152.19px;
+    }
+
+    .joinPart, .onlinePart{
+        font-size: 47px;
+        line-height: 60px;
+    }
+
+    .paraBox{
+        width: 100%;
+        max-width: 855px;
+    }
+
+    .titlePartBox{
+        font-size: 21px;
+    }
+
+    .downBoxSubContainer{
+        width: 100%;
+        max-width: 754px;
+    }
+
+    .imgPartBox img{
+        width: 53px;
+    }
+
+    .buttonBox{
+        height: 82px;
+    }
+    .headerDownContainer marquee{
+        bottom: -5px;
+    }
+}
+ 

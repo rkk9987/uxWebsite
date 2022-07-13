@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <!-- Jquery Script  -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+ <!-- navbar link  -->
+ <link rel="stylesheet" href="../">
+    
+</head>
+<body>
+
+    <div id="navbar"></div>
+    <div class="mapSection"></div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.mapSection').load("../components/Contact us page/contact_us.html");
+            $('.whyToChoose').load("../components/WHY_CHOOSE_US/Why_to_choose_us.html");
+            $('#navbar').load("../components/websiteNavbar/navbar.html");
+            // $('missionVisionSection').load("../components/aboutUsMissionVission/aboutUsMissionVission.html");
+            // $('.gotIdeaSection').load("../components/getInTouchButton/Our framework  (botton section).html");
+             
+        });
+    </script>
+</body>
+</html>

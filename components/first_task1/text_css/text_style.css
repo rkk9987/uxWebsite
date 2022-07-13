@@ -1,0 +1,50 @@
+*{
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+}
+
+#text_part{
+    max-width: 1077px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.content_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left_text{
+    width: 173px;
+}
+
+.left_content{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    
+}
+
+
+.right_text{
+    width: 710px;
+}
+
+.right_content{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    line-height: 22px;
+    margin-bottom: 0;  
+    margin-top: 1%;
+}
+
+
+
+
+

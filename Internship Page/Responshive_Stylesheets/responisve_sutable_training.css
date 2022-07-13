@@ -1,0 +1,1016 @@
+@media(min-width:320px) and (max-width:425px) {
+
+    .sutable_training_section {
+        margin: 50px auto 0 auto;
+        width: 100%;
+        max-width: 1075px;
+    }
+
+    .sutable_training_text {
+        text-align: center;
+    }
+
+    .ST_heading{
+        height: auto;
+        width: 88%;
+        margin: auto;
+        line-height: 34px;
+        font-size: 24px;
+    }
+
+    .ST_summary {
+        Height: auto;
+        width: 90%;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 19px auto;
+    }
+
+
+
+    .developer_component {
+        margin: 21px auto 0 auto;
+        display: grid;
+        width: 95%;
+        height: auto;
+    }
+
+    .developer_box {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 5px solid #000000;
+        border-right: none;
+    }
+
+    .developer_img_heading {
+        Height: auto;
+        margin-top: 24px;
+        max-width: 454px;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 29.1818px;
+    }
+
+    .dev_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 100%;
+    }
+
+    .dev_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 100%;
+    }
+
+    .dev_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 100%;
+    }
+
+    .dev_summary {
+        width: 100%;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .dev_smry {
+        width: 100%;
+    }
+
+    .dev_apply_buttons {
+        display: flex;
+        justify-content: space-between;
+        /* margin-top: 20px; */
+        /* margin-bottom: 0; */
+    }
+
+    .dev_apply_course_btn {
+        width: 47%;
+        max-width: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    margin-right: 0px;
+
+    }
+
+    .dev_join_whatsapp_btn {
+        Width: 47%;
+        max-width: 170px;
+    }
+
+    .dev_whatsapp_text {
+        font-weight: 600;
+        font-size: 15.9492px;
+    }
+
+    .designer_component {
+        display: grid;
+        margin: 50px auto 0 auto;
+        width: 95%;
+        height: auto;
+    }
+
+    .designer_box {
+        width: 100%;
+        padding: 10px;
+        border-right: none;
+        border-bottom: 5px solid #000000;
+    }
+
+    .designer_img_heading {
+        Height: auto;
+        margin-top: 24px;
+        max-width: 454px;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 29.1818px;
+        line-height: 47px;
+
+    }
+
+    .designer_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 100%;
+    }
+
+    .designer_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 100%;
+    }
+
+    .designer_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 100%;
+    }
+
+    .designer_summary {
+        width: 100%;
+        padding: 20px 10px 20px 10px;
+    }
+
+    .designer_smry {
+        width: 100%;
+    }
+
+    .designer_apply_buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .designer_apply_course_btn {
+        width: 47%;
+        max-width: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .designer_join_whatsapp_btn {
+        Width: 47%;
+        max-width: 170px;
+    }
+
+    .designer_whatsapp_text {
+        font-weight: 600;
+        font-size: 15.9492px;
+    }
+
+    .dev_rate {
+        font-weight: 400;
+        font-size: 13.8205px;
+    }
+
+    .dev_whatsapp_text {
+        font-weight: 600;
+        font-size: 13.9492px;
+    }
+
+    .designer_rate {
+        font-weight: 400;
+        font-size: 13.8205px;
+    }
+
+    .designer_whatsapp_text {
+        font-weight: 600;
+        font-size: 12.9492px;   
+    }
+
+    .designer_apply_buttons {
+        margin-top: 0%;
+        /* margin-bottom: 20px; */
+    }
+
+    .designer_all_buttons {
+        margin-bottom: 20px;
+    }
+
+    .dev_all_buttons {
+        margin-bottom: 20px;
+    }
+
+    .dev_applyNow {
+        /* position: relative; */
+        /* right: 63px; */
+        width: 100%;
+        /* float: right; */
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+        margin-top: 6px;
+    }
+
+    
+    .designer_applyNow {
+        /* position: relative; */
+        /* right: 63px; */
+        width: 100%;
+        /* float: right; */
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+        margin-top: 6px;
+    }
+
+    .designer_applyNow span {
+        width: 47%;
+        max-width: 170px;
+        text-align: center;
+    }
+
+    .dev_applyNow span {
+        width: 47%;
+        max-width: 170px;
+        text-align: center;
+    }
+
+    img.dev_whstsapp {
+        width: 13%;
+    }
+
+    .dev_mode {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+    }
+
+    .designer_mode {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+    }
+
+    .dev_rightbutton {
+        margin-top: 0;
+    }
+
+    .designer_rightbutton {
+        margin-top: 0;
+    }
+
+}
+
+
+@media(min-width:426px) and (max-width:768px) {
+
+    section#Join_our_internship {
+        margin: 40px auto 0 auto;
+    }
+
+    .sutable_training_section{
+        margin: 60px auto 0 auto;
+        width: 100%;
+        max-width: 1075px;
+    }
+
+    .sutable_training_text {
+        text-align: center;
+    }
+
+    .ST_heading{
+        height: auto;
+        width: 88%;
+        margin: auto;
+        line-height: 34px;
+        font-size: 23px;
+    }
+
+    .ST_summary{
+        Height: auto;
+        margin: 20px AUTO;
+        width: 95%;
+        max-width: 1076px;
+        font-weight: 300;
+        font-size: 17px;
+    }
+
+
+
+    .developer_component {
+        display: grid;
+        margin: 30px auto 0 auto;
+        height: auto;
+        Width: 95%;
+    }
+
+    .developer_box {
+        width: 100%;
+        border-bottom: 5px solid #000000;
+        border-right: none;
+    }
+
+    .developer_img_heading {
+        Height: auto;
+        margin-top: 24px;
+        max-width: 100%;
+        color: #FFFFFF;
+        font-size: 30.1818px;
+    }
+
+    .dev_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 141px;
+    }
+
+    .dev_rightbutton {
+        margin-top: 0;
+    }
+
+    .designer_rightbutton {
+        margin-top: 0;
+    }
+
+    .dev_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 155px;
+    }
+
+    .dev_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 240px;
+    }
+
+    .dev_summary {
+        width: 100%;
+        padding: 32px 32px 20px 32px;
+        display: grid;
+    }
+
+    .dev_smry {
+        width: 100%;
+    }
+
+    .dev_apply_buttons {
+        display: flex;
+        justify-content: end;
+        /* margin-top: 20px; */
+        /* margin-bottom: 20px; */
+    }
+
+    .dev_apply_course_btn {
+        width: 47%;
+        max-width: 190px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+    }
+
+    .dev_join_whatsapp_btn {
+        Width: 47%;
+        max-width: 190px;
+    }
+
+    .dev_rate {
+        font-weight: 400;
+        font-size: 14.8205px;
+    }
+
+    .dev_whatsapp_text {
+        font-weight: 600;
+        font-size: 15.9492px;
+    }
+
+    img.dev_whstsapp {
+        width: 13%;
+    }
+
+
+
+
+    .designer_apply_buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .designer_apply_course_btn {
+        width: 47%;
+        max-width: 190px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    }
+
+    .designer_join_whatsapp_btn {
+        Width: 47%;
+        max-width: 190px;
+    }
+
+    .designer_rate {
+        font-weight: 400;
+        font-size: 14.8205px;
+    }
+
+    .designer_whatsapp_text {
+        font-weight: 600;
+        font-size: 15.9492px;
+    }
+
+    img.dev_whstsapp {
+        width: 13%;
+        max-width: 25px;
+    }
+
+    /* .dev_whatsapp_text {
+        font-weight: 600;
+        font-size: 15.9492px;
+    } */
+
+    .designer_component {
+        display: grid;
+        margin: 40px auto 0 auto;
+        height: auto;
+        Width: 95%;
+    }
+
+    .designer_box {
+        width: 100%;
+        border-bottom: 5px solid #000000;
+        border-right: none;
+    }
+
+    .designer_img_heading {
+        Height: auto;
+        margin-top: 24px;
+        max-width: 100%;
+        color: #FFFFFF;
+        font-size: 30.1818px;
+    }
+
+    .designer_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 141px;
+    }
+
+    .designer_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 155px;
+    }
+
+    .designer_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 240px;
+    }
+
+    .designer_summary {
+        width: 100%;
+        padding: 32px 32px 20px 32px;
+    display: grid;
+    }
+
+    .designer_smry {
+        width: 100%;
+    }
+
+    .designer_apply_buttons {
+        display: flex;
+        justify-content: end;
+        margin-top:     0px;
+        margin-bottom: 0px;
+    }
+
+    .designer_apply_course_btn {
+        width: 47%;
+        max-width: 190px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+    }
+
+    .designer_join_whatsapp_btn {
+        Width: 47%;
+        max-width: 190px;
+    }
+
+    .dev_applyNow {
+        /* position: relative; */
+        /* right: 63px; */
+        width: 100%;
+        /* float: right; */
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+        margin-top: 6px;
+    }
+    
+    .dev_applyNow span {
+        width: 47%;
+        max-width: 170px;
+        text-align: center;
+    }
+
+    .designer_applyNow {
+        /* position: relative; */
+        /* right: 63px; */
+        width: 100%;
+        /* float: right; */
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+        margin-top: 6px;
+    }
+    
+    .designer_applyNow span {
+        width: 47%;
+        max-width: 170px;
+        text-align: center;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px) {
+
+    .sutable_training_section {
+        margin: 50px auto 0 auto;
+    width: 100%;
+    max-width: 1075px;
+    }
+
+    .ST_heading{
+        height: auto;
+        margin: auto;
+        width: 90%;
+        max-width: 1047px;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .ST_summary{
+        Height: auto;
+        margin-top: 13px;
+        width: 90%;
+        margin: 20px auto;
+        max-width: 1076px;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+
+
+    .developer_component {
+        display: flex;
+        margin: 30px auto 0 auto;
+        height: auto;
+        Width: 90%;
+        max-Width: 100%;
+        background: rgba(238, 87, 0, 0.84);
+        border: 5px solid #000000;
+        box-shadow: 0px 10px 10px rgb(0 0 0 / 25%);
+        border-radius: 25px;
+    }
+
+    .developer_img_heading {
+        Height: auto;
+        margin-top: 48px;
+        max-width: 454px;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 28.1818px;
+        line-height: 39px;
+    }
+
+    .developer_box {
+        width: 45%;
+        padding: 32px 10px;
+    }
+
+    .dev_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 141px;
+    }
+
+    .dev_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 155px;
+    }
+
+    .dev_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 240px;
+    }
+
+    .dev_all_buttons {
+        text-align: center;
+        margin-top: 42px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .dev_smry {
+        width: 100%;
+    } */
+
+    .dev_apply_buttons {
+        display: flex;
+        justify-content: end;
+        margin-top: 0px;
+        /* margin-bottom: 20px; */
+    }
+
+    .dev_mode {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .dev_apply_course_btn {
+        width: 45%;
+        max-width: 200px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+    }
+
+    .dev_join_whatsapp_btn {
+        Width: 48%;
+        max-width: 200px;
+    }
+
+
+
+    .designer_component {
+        display: flex;
+        margin: 55px auto 0 auto;
+        height: auto;
+        Width: 90%;
+        max-Width: 100%;
+    }
+
+    .designer_img_heading {
+        Height: auto;
+        margin-top: 48px;
+        max-width: 454px;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 28.1818px;
+        line-height: 39px;
+    }
+
+    .designer_box {
+        width: 45%;
+        padding: 32px 10px;
+    }
+
+    .designer_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 141px;
+    }
+
+    .designer_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 155px;
+    }
+
+    .designer_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 240px;
+    }
+
+    .designer_all_buttons {
+        text-align: center;
+        margin-top: 42px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .dev_smry {
+        width: 100%;
+    } */
+
+    .designer_apply_buttons {
+        display: flex;
+        justify-content: end;
+        /* margin-top: 20px; */
+        /* margin-bottom: 20px; */
+    }
+
+    /* .designer_rightbutton {
+        margin-top: 65px;
+    } */
+
+    .designer_apply_course_btn {
+        width: 45%;
+        max-width: 200px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6%;
+    }
+
+    .designer_join_whatsapp_btn {
+        Width: 48%;
+        max-width: 200px;
+    }
+
+    .dev_summary {
+        padding: 32px 10px 0 10px;
+    }
+
+    .dev_smry {
+        width: 100%;
+    }
+
+    .designer_summary {
+        width: 57%;
+        padding: 32px 10px 0 10px;
+    }
+
+    .dev_applyNow {
+        /* position: relative; */
+        /* right: 63px; */
+        width: 100%;
+        /* float: right; */
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        /* margin-bottom: 12px;
+        margin-top: 6px; */
+    }
+    
+    .dev_applyNow span {
+        width: 47%;
+        max-width: 170px;
+        text-align: center;
+    }
+
+    .designer_smry {
+        width: 100%;
+    }
+
+    .designer_mode {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+@media(min-width:1025px) and (max-width:1075px) {
+
+    .developer_component {
+        display: flex;
+        margin: 30px auto 0 auto;
+        height: auto;
+        Width: 90%;
+        max-Width: 100%;
+        background: rgba(238, 87, 0, 0.84);
+        border: 5px solid #000000;
+        box-shadow: 0px 10px 10px rgb(0 0 0 / 25%);
+        border-radius: 25px;
+    }
+
+    .developer_img_heading {
+        Height: auto;
+        margin-top: 48px;
+        max-width: 454px;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 28.1818px;
+        line-height: 39px;
+    }
+
+    .developer_box {
+        width: 45%;
+        padding: 32px 10px;
+    }
+
+    .dev_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 141px;
+    }
+
+    .dev_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 155px;
+    }
+
+    .dev_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 240px;
+    }
+
+    .dev_all_buttons {
+        text-align: center;
+        margin-top: 41px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .dev_smry {
+        width: 100%;
+    } */
+
+    .dev_apply_buttons {
+        display: flex;
+        justify-items: center;
+        margin-top: 0px;
+        /* margin-bottom: 20px; */
+    }
+
+    .dev_apply_course_btn {
+        width: 47%;
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .dev_join_whatsapp_btn {
+        width: 47%;
+    max-width: 190px;
+    }
+
+
+
+    .designer_component {
+        display: flex;
+        margin: 55px auto 0 auto;
+        height: auto;
+        Width: 90%;
+        max-Width: 100%;
+    }
+
+    .designer_img_heading {
+        Height: auto;
+        margin-top: 48px;
+        max-width: 454px;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 28.1818px;
+        line-height: 39px;
+    }
+
+    .designer_box {
+        width: 45%;
+        padding: 32px 10px;
+    }
+
+    .designer_duration_button {
+        background: #A7E5FF;
+        width: 26%;
+        max-width: 141px;
+    }
+
+    .designer_training_button {
+        background: #A7E5FF;
+        width: 28%;
+        max-width: 155px;
+    }
+
+    .designer_career_button {
+        background: #A7E5FF;
+        width: 42%;
+        max-width: 240px;
+    }
+
+    .designer_all_buttons {
+        text-align: center;
+        margin-top: 42px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .dev_smry {
+        width: 100%;
+    } */
+
+    .designer_apply_buttons {
+        display: flex;
+        justify-content: end;
+        margin-top: 0px;
+        /* margin-bottom: 20px; */
+    }
+
+    .designer_apply_course_btn {
+        width: 47%;
+    max-width: 190px;
+    }
+
+    .designer_join_whatsapp_btn {
+        width: 47%;
+        max-width: 190px;
+    }
+
+    .designer_summary {
+        width: 57%;
+        padding: 32px 10px 0 10px;
+    }
+
+    .dev_summary {
+        padding: 32px 10px 0 10px;
+    }
+
+    .dev_smry {
+        width: 100%;
+    }
+
+    .dev_applyNow {
+        /* position: relative; */
+        /* right: 63px; */
+        width: 100%;
+        /* float: right; */
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        /* margin-bottom: 12px;
+        margin-top: 6px; */
+    }
+    
+    .dev_applyNow span {
+        width: 47%;
+        max-width: 170px;
+        text-align: center;
+    }
+}
+
+
+@media(min-width:1076px) and (max-width:1200px){
+
+
+    .developer_component {
+        Width: 95%;
+    }
+
+    .designer_component {
+        Width: 95%;
+    }
+}

@@ -1,0 +1,441 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+.sutable_training_section {
+    margin: 104px auto 0 auto;
+    width: 1075px;
+    max-width: 1075px;
+}
+
+.sutable_training_text {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ST_heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.ST_summary {
+    width: 90%;
+    max-width: 935px;
+    height: fit-content;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Fullstack Developer Card */
+
+.developer_designer_card {
+    padding-bottom: 13px;
+}
+
+
+.developer_component {
+    display: flex;
+    margin: 56px auto 0 auto;
+    height: 419px;
+    Width: 1075px;
+    max-Width: 1075px;
+    background: rgba(238, 87, 0, 0.84);
+    border: 5px solid #000000;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.developer_box {
+    width: 45%;
+    padding: 32px 32px 0 32px;
+    border-right: 5px solid #000000;
+}
+
+.developer_img {
+    text-align: center;
+}
+
+.developer_img_heading {
+    Height: 66px;
+    margin-top: 24px;
+    max-width: 454px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 34.1818px;
+    line-height: 47px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.dev_all_buttons {
+    text-align: center;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+
+.dev_duration_button {
+    background: #A7E5FF;
+    width: 112px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dev_training_button {
+    background: #A7E5FF;
+    width: 105px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dev_career_button {
+    background: #A7E5FF;
+    width: 134px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dev_type_in {
+    font-weight: 300;
+    font-size: 10.20513px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.dev_mode {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.dev_summary {
+    width: 57%;
+    padding: 31px 32px 0 32px;
+    display: grid;
+}
+
+.dev_smry {
+    width: 537px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.dev_skills_tools {
+    width: 124px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.dev_apply_buttons {
+    display: flex;
+    justify-content: end;
+    height: 65px;
+}
+
+.dev_apply_course_btn {
+    width: 171.79px;
+    max-width: 171.79px;
+    height: 48px;
+    background: #E4DB22;
+    border-radius: 19.2308px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dev_fees {
+    font-weight: 400;
+    font-size: 12.8205px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.dev_rate {
+    font-weight: 400;
+    font-size: 15.8205px;
+    /* line-height: 18px; */
+    color: #000000;
+}
+
+.dev_join_whatsapp_btn {
+    Width: 205.08px;
+    max-width: 205.08px;
+    Height: 48px;
+    background: #25D366;
+    border-radius: 19.2308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dev_whatsapp_text {
+    font-weight: 600;
+    font-size: 16.9492px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+/* UI-UX Designer Card */
+
+.designer_component {
+    display: flex;
+    margin: 99px auto 0 auto;
+    height: 419px;
+    Width: 1075px;
+    max-Width: 1075px;
+    background: rgba(250, 0, 255, 0.84);
+    border: 5px solid #000000;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.designer_box {
+    width: 45%;
+    padding: 32px 32px 0px 32px;
+    border-right: 5px solid #000000;
+}
+
+.designer_img {
+    text-align: center;
+}
+
+.designer_img_heading {
+    Height: 66px;
+    margin-top: 24px;
+    max-width: 454px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 34.1818px;
+    line-height: 47px;
+}
+
+.designer_all_buttons {
+    text-align: center;
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+
+.designer_duration_button {
+    background: #A7E5FF;
+    width: 112px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.designer_training_button {
+    background: #A7E5FF;
+    width: 105px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.designer_career_button {
+    background: #A7E5FF;
+    width: 134px;
+    height: 46px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.designer_type_in {
+    font-weight: 300;
+    font-size: 10.20513px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.designer_mode {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.designer_summary {
+    width: 57%;
+    padding: 32px 32px 0 32px;
+    display: grid;
+}
+
+.designer_smry {
+    width: 537px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.designer_tools {
+    width: 530px;
+    margin-bottom: 31px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.designer_skills_tools {
+    width: 124px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 12px;
+    margin-top: 26px;
+}
+
+.designer_apply_buttons {
+    display: flex;
+    justify-content: end;
+    height: 65px;
+}
+
+.designer_apply_course_btn {
+    width: 171.79px;
+    height: 48px;
+    background: #E4DB22;
+    border-radius: 19.2308px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.designer_fees {
+    font-weight: 400;
+    font-size: 12.8205px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.designer_rate {
+    font-weight: 400;
+    font-size: 15.8205px;
+    /* line-height: 18px; */
+    color: #000000;
+}
+
+.designer_join_whatsapp_btn {
+    Width: 205.08px;
+    Height: 48px;
+    background: #25D366;
+    border-radius: 19.2308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.designer_whatsapp_text {
+    font-weight: 600;
+    font-size: 16.9492px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+
+
+.dev_applyNow {
+    /* position: relative; */
+    /* right: 63px; */
+    width: 100%;
+    /* float: right; */
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    align-items: center;
+    /* margin-bottom: 12px; */
+    /* margin-top: 6px; */
+}
+
+.dev_rightbutton {
+    /* margin-top: 74px; */
+    display: grid;
+}
+
+.designer_rightbutton {
+    /* margin-top: 74px; */
+    display: grid;
+}
+
+.dev_applyNow span {
+    Width: 205.08px;
+    max-width: 205.08px;
+    text-align: center;
+}
+
+.designer_applyNow {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    /* margin-bottom: 12px; */
+    /* margin-top: 6px; */
+}
+
+.designer_applyNow span {
+    Width: 205.08px;
+    max-width: 205.08px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+

@@ -1,0 +1,151 @@
+* {
+  overflow-x: hidden;
+  font-family: "Manrope", sans-serif;
+}
+
+#text_container_section {
+  max-width: 1077px;
+  margin: auto;
+  /*main margin  */
+  margin-top: 79px;
+  /* margin-bottom: 481px; */
+}
+
+.image_Content_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_text {
+  width: 173px;
+}
+
+.left_content {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  /* line-height: 100px; */
+  color: #000000;
+}
+
+.right_text {
+  width: 710px;
+}
+
+.right_content {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  line-height: 29px;
+  margin-bottom: 0;
+  margin-top: 1%;
+}
+
+/* ----------------Responsive Section ------------------------ */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #text_container_section {
+    width: 90%;
+    margin-top: 40px;
+  }
+
+  .image_Content_box {
+    flex-direction: column;
+    height: auto;
+  }
+  .left_text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .left_content {
+    display: inline;
+    font-size: 18px;
+    line-height: 43px;
+    color: #000000;
+    text-align: center;
+  }
+
+  .right_text {
+    width: 100%;
+    height: auto;
+  }
+
+  .right_content {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  #text_container_section {
+    width: 82% !important;
+    margin-top: 55px;
+  }
+
+  .image_Content_box {
+    flex-direction: column;
+    height: auto;
+  }
+  .left_text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .left_content {
+    font-size: 19px;
+    line-height: 50px;
+  }
+
+  .right_text {
+    width: 100%;
+    height: auto;
+  }
+
+  .right_content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  #text_container_section {
+    width: 85%;
+  }
+
+  .left_text {
+    width: 31%;
+    text-align: center;
+  }
+
+  .image_Content_box {
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+  }
+
+  .left_content {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .right_text {
+    width: 76%;
+    height: auto;
+  }
+
+  .right_content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 0px;
+  }
+}

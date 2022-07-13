@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'Manrope';
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+.section_heading_we_serve {
+    width: 95%;
+    max-width: 1075px;
+    margin: 117px auto 0 auto;
+}
+
+.our_services_WS {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    width: 92px;
+}
+
+.PDL_WS {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.we_serve_summary_WS {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 706px;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.about_louder_gif {
+    max-width: 345px;
+    width: 33%;
+}
+
+.we_serve_WS {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1066px;
+    width: 100%;
+}
+
+
+@media(min-width:320px) and (max-width:425px){
+    .section_heading_we_serve {
+        width: 90%;
+        max-width: 1075px;
+        margin: 40px auto 0 auto;
+    }
+
+    .we_serve_heading_WS {
+        width: 60%;
+    }
+
+    .PDL_WS {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        max-width: 676px;
+        width: 100%;
+    }
+
+    .we_serve_summary_WS {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        max-width: 706px;
+        width: 100%;
+        margin-top: 14px;
+    }
+    .about_louder_gif {
+        max-width: 300px;
+        width: 41%;
+        height: min-content;
+        margin: auto;
+
+    }
+
+}
+
+
+@media(min-width:426px) and (max-width:768px){
+    .section_heading_we_serve {
+        width: 90%;
+        max-width: 1075px;
+        margin: 55px auto 0 auto;
+    }
+
+    .we_serve_heading_WS {
+        width: 60%;
+    }
+
+    .PDL_WS {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        max-width: 676px;
+        width: 100%;
+    }
+
+    .we_serve_summary_WS {
+        font-weight: 300;
+        font-size: 17px;
+    line-height: 27px;
+        max-width: 706px;
+        width: 100%;
+        margin-top: 14px;
+    }
+    .about_louder_gif {
+        max-width: 227px;
+        width: 41%;
+        height: fit-content;
+        margin: auto;
+    }
+
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+
+    .section_heading_we_serve {
+        width: 90%;
+        max-width: 1075px;
+        margin: 75px auto 0 auto;
+    }
+
+    .PDL_WS {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+        max-width: 676px;
+        width: 100%;
+    }
+    .we_serve_summary_WS {
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+}

@@ -1,0 +1,284 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.contact_us_sec_2 {
+    max-width: 1075px;
+    width: 90%;
+    margin: 90px auto 0 auto;
+}
+
+.contact__sec2_head {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    height: auto;
+    color: #000000;
+}
+
+.contact_us_ptext {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.contact_us_sec_21 {
+    max-width: 1075px;
+    width: 90%;
+    margin: 34px auto 0 auto;
+    /* border: 1px solid black; */
+}
+
+.contact_us_container_1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 19px;
+}
+
+.card_box {
+    height: 356px;
+    /* border: 1px solid red; */
+    max-width: 345px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+    background-color:
+        #F7F4BA;
+    border-radius: 15px;
+}
+
+.card_box_title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    height: auto;
+    color: #000000;
+    overflow-y: hidden;
+}
+
+.card_box_body_text {
+    margin-top: 30px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    max-width: 215px;
+    width: 95%;
+    height: 59px;
+    color: #000000;
+}
+
+.card_btn {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 15px;
+    max-width: 225px;
+    width: 90%;
+    height: 56px;
+    margin-top: 60px;
+}
+@media screen and (max-width:1440px) {
+    .card_box {
+        height: 356px;
+        width: 95%;
+        column-gap: 19px;
+    }
+
+    .card_box_title {
+        font-size: 20px;
+        line-height: 27px;
+        height: auto;
+    }
+
+    .card_box_body_text {
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 27px;
+        width: 90%;
+        height: 59px;
+    }
+
+    .card_btn {
+        font-size: 20px;
+        line-height: 27px;
+        width: 90%;
+        height: 56px;
+        margin-top: 60px;
+    }
+
+    .contact_us_container_1 {
+        column-gap: 19px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .contact_us_sec_2{
+        margin-top: 70px;
+    }
+    .card_box {
+        width: 99%;
+        height: 293px;
+        display: grid;
+        padding-left: 18px;
+    }
+
+    .card_box_title {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 53px;
+    }
+
+    .card_box_body_text {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 30px;
+    }
+
+    .card_btn {
+        width: 80%;
+        font-size: 17px;
+        line-height: 20px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact_us_container_1 {
+        column-gap: 16px;
+    }
+
+    .contact__sec2_head {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .contact_us_ptext {
+        font-size: 22px;
+        line-height: 29px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .contact_us_sec_2{
+        margin-top: 45px;
+    }
+    .card_box {
+        width: 100%;
+        height: 183px;
+        display: grid;
+        padding-left: 17px;
+    }
+
+    .card_box_title {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .card_box_body_text {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 20px;
+        width: 96%;
+        height: 55px;
+    }
+
+    .card_btn {
+        width: 86%;
+        font-size: 13px;
+        line-height: 18px;
+        height: 30px;
+        margin-top: 14px;
+    }
+
+    .contact_us_container_1 {
+        column-gap: 12px;
+    }
+
+    .contact__sec2_head {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .contact_us_ptext {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .contact_us_sec_2{
+        margin-top: 30px;
+    }
+    .card_box {
+        width: 100%;
+        height: 150px;
+        display: grid;
+        padding-left: 9px;
+    }
+
+    .card_box_title {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 13px;
+    }
+
+    .card_box_body_text {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 9px;
+       height: 45px;
+    }
+
+    .card_btn {
+        width: 86%;
+        font-size: 12px;
+        line-height: 14px;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .contact_us_container_1 {
+        column-gap: 7px;
+    }
+
+    .contact__sec2_head {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .contact_us_ptext {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 6px;
+    }
+}

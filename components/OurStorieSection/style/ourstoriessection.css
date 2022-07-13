@@ -1,0 +1,271 @@
+
+/* Our Stories section csss start */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
+*{
+    overflow-x: hidden;
+}
+
+.storiesContainerk1{
+margin-inline: auto;
+
+margin-top: 26px;
+margin-bottom: 90px;
+max-width: 1077px;
+box-sizing: border-box;
+
+
+
+}
+
+.ourStoriesHeading{
+
+max-width: 345px;
+/* width: 100%; */
+/* height: 55px; */
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+/* identical to box height */
+
+    display: flex;
+    align-items: center;
+color: #000000;
+
+
+}
+.ourStoriesSubHeading{
+max-width: 795px;
+margin-top: 10px;
+margin-bottom: 48px;
+/* width: 100%; */
+/* height: 66px; */
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height : 33px;
+
+color: #000000;
+display: flex;
+align-items: center;
+/* overflow: hidden; */
+
+
+}
+.ourStoriesSubHeading p{
+width:55%;
+}
+.rowcardSection1{
+    display: flex;
+    flex-direction: row; 
+    gap: 20px;
+    max-width: 1077px;
+    overflow-x: scroll;
+
+}
+.rowcardSection1::-webkit-scrollbar {    display: none;}
+.Scard1{
+max-width: 345px;
+width: 100%;
+/* height: 400px; */
+/* height: 100%; */
+flex-shrink: 0;
+background: #F7F4BA;
+border-radius: 15px;
+/* flex:1;
+-webkit-flex:1; */
+padding-bottom: 33px;
+}
+.ScardImgBox1{
+   
+    border: 1px solid #000000;
+    border-radius: 15px 15px 0px 0px;
+box-sizing: border-box;
+    margin: 0;
+  
+}
+.ScardImg1{
+width: 100%;
+max-width: 345px;
+max-height: 100%;
+height: 216px;
+
+
+
+}
+.ScardBody1{
+    padding-left: 27px;
+    padding-top: 16px;
+    padding-bottom: 26px;
+}
+.ScardBody1 p{
+
+ max-width: 318px;
+/* max-he   ight: 75px; */
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 25px;
+display: flex;
+align-items: center;
+color: #000000;
+margin-bottom: 26px;
+
+
+}
+.ScardBody1 a{
+  
+max-width: 103px;
+width: 100%;
+/* height: 27px; */
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+color: #000000;
+padding-bottom: 6px;
+border-bottom: 1px solid #000000;
+text-decoration: none;
+}
+@media screen and (max-width: 320px) {
+    .ourStoriesSubHeading p {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px){
+    /* styles */
+    .storiesContainerk1{
+        width: 90%;
+    }
+    .ourStoriesSubHeading p {
+        width: 100%;
+    }
+    .ScardBody1{
+        padding-left: 16px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+    .ourStoriesHeading{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .ourStoriesSubHeading{
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 13px;
+    }
+    .ScardBody1 p{
+        /* font-size: 16px;
+    line-height: 23px;
+    width: 90%; */
+    font-size: 13px;
+    line-height: 16px;
+    padding-bottom: 1px;
+    /* margin-bottom: 15px; */
+    margin-bottom: 2px;
+    }
+    
+    .Scard1{
+        /* height: 353px;
+        width: 274px; */
+        width: 180px;
+        /* height: 240px; */
+        padding-bottom: 15px;
+    }
+    .ScardBody1 a{
+        font-size: 14px;
+        padding-bottom: 4px;
+    }
+    .ScardImg1{
+        /* height: 190px; */
+        height: 100px;
+    }
+   
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+
+    /* styles */
+    .storiesContainerk1{
+        width: 90%;
+    }
+    .ourStoriesHeading{
+        /* font-size: 30px;
+        line-height: 45px; */
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .ourStoriesSubHeading{
+        font-size: 21px;
+        line-height: 28px;
+        margin-bottom: 25px;
+        
+    }
+    .ourStoriesSubHeading p {
+        /* width: 92%; */
+        width: 370px;
+    }
+    .ScardImg1{
+        /* height: 190px; */
+        height: 150px;
+    }
+    .Scard1{
+              width: 255px;       
+        padding-bottom: 10px;
+    }
+    .ScardBody1{
+        padding-left: 20px;
+        /* padding-right: 20px; */
+      
+    }
+    .ScardBody1 p{
+        margin-bottom: 8px;
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .ScardBody1 a{
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /* styles */
+    .storiesContainerk1{
+        width: 88%;
+    }
+    .ourStoriesSubHeading p{
+        width: 60%;
+    }
+    .ourStoriesSubHeading{
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 27px;
+        
+    }
+    .Scard1{
+        max-width: 315px;
+    }
+    .ScardImg1{
+      
+        height: 180px;
+    }
+    .ScardBody1{
+     
+        padding-right: 20px;
+      
+    }
+    .ScardBody1 p{
+        margin-bottom: 13px;
+    }
+    .ScardBody1{
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .storiesContainerk1{
+        width: 90%;
+    }
+}

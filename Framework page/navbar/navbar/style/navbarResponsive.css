@@ -1,0 +1,89 @@
+@media (min-width:320px ) and (max-width:425px){
+    .academy_logo{
+        width: 90%;
+        max-width: 149px;
+    }
+    .academy_logo img{
+        height: 57px;
+    }
+    .navbar_components{
+        width: 72%;
+    }
+    .navbar_components ul{
+        padding-left: 0 !important;
+        width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 !important;
+    }
+
+    .nav_item{
+        margin-left: 0;
+        display: none;
+    }
+   #menuLink{
+       display: block;
+   }
+    .nav_link{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:425px ) and (max-width:768px){
+    .academy_logo{
+        width: 90%;
+        max-width: 149px;
+    }
+    .academy_logo img{
+        height: 71px;
+    }
+    .navbar_components{
+        width: 72%;
+    }
+    .navbar_components ul{
+        padding-left: 0 !important;
+        width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 !important;
+    }
+
+    .nav_item{
+        margin-left: 0;
+        display: none;
+    }
+   #menuLink{
+       display: block;
+   }
+    .nav_link{
+        font-size: 15px;
+    }
+}
+
+@media (min-width:769px ) and (max-width:1024px){
+    .academy_logo{
+        width: 31%;
+        max-width: 149px;
+    }
+    .academy_logo img{
+        height: 71px;
+    }
+
+    .navbar_components{
+        width: 72%;
+    }
+    .navbar_components ul{
+        padding-left: 0 !important;
+        width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .nav_item{
+        margin-left: 0;
+    }
+
+    .nav_link{
+        font-size: 15px;
+    }
+}

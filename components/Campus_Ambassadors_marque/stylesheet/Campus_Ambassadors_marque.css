@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.section-heading {
+    margin-top: 151px;
+}
+
+.section-heading h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.cards-section {
+    width: 90%;
+    max-width: 1074px;
+    margin: 78px auto 0 auto;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    width: 170%;
+    /* justify-content: space-between; */
+}
+
+.card-name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    
+    height: 29px;
+
+    color: #000000;
+
+}
+
+.cards .card-item {
+    background: #F7F4BA;
+    border-radius: 25px;
+    min-width: 300px;
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+
+}
+
+
+/* responsive */
+
+@media (min-width:1024px) {
+    .section-heading h2 {
+        font-size: 35px;
+    }
+
+    .cards {
+
+        width: 213%;
+
+    }
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .section-heading h2 {
+        font-size: 35px;
+    }
+
+    .cards {
+
+        width: 372%;
+
+    }
+
+
+}
+
+@media (min-width:629px) and (max-width:769px) {
+    .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .cards {
+        width: 454%;
+    }
+
+
+}
+
+@media (min-width:425px) and (max-width:629px) {
+    .section-heading h2 {
+        font-size: 27px;
+    }
+
+    .cards {
+        width: 670%;
+    }
+}
+
+@media (max-width:425px) {
+
+    .section-heading {
+        margin-top: 40px;
+        width: 98%;
+    }
+
+    .section-heading h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .cards {
+        width: 890%;
+    }
+
+    .cards-section {
+        width: 90%;
+        max-width: 1074px;
+        margin: 35px auto 0 auto;
+    }
+}

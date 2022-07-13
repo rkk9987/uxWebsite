@@ -1,0 +1,530 @@
+@media (min-width:1440px) and (max-width:2660px) {
+    .frameworkfirstpage {
+        max-width: 1075px;
+        width: 100%;
+        margin: auto;
+    }
+    .frameworkfirstpage1 {
+        max-width: 1075px;
+        width: 100%;
+        margin: auto;
+    }
+    .subcontainer2 {
+        height: 561px;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo,
+    .ideadiscussioninfo,
+    .ideavalidationinfo,
+    .prototypinginfo,
+    .productdevelopementinfo,
+    .qualityassuranceinfo,
+    .productlaunchinfo {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .subcontainer {
+        height: 561px;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 72px;
+    }
+
+    .frameworkfirstpage {
+        margin: auto;
+        width: 90%;
+    }
+    .frameworkfirstpage1 {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .frameworkimg img {
+        margin-left: 5px;
+        height: 260px;
+        width: 260px;
+        margin-top: 0px;
+    }
+
+    .meanbox {
+        max-width: 700px;
+        width: 93%;
+    }
+
+    .ourframwork,
+    .ourpdlc {
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 22px;
+    }
+
+    .subcontainer2 {
+        height: 571px;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+
+    .frameworkcontainer {
+        height: 270px;
+    }
+    .discover,
+    .pdlcidea1,
+    .pdlcidea2,
+    .desing{
+        margin-top: 5px;
+    }
+    .pdlcidea3,
+    .pdlcidea4,
+    .define,
+    .bulid {
+        margin-top: 30px;
+    }
+
+    .pdlcidea5,
+    .pdlcidea6,
+    .testing {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .subcontainer {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 30px;
+    }
+
+    .frameworkfirstpage {
+        margin: auto;
+        width: 90%;
+    }
+    .frameworkfirstpage1 {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .frameworkimg img {
+        margin-left: 5px;
+        height: 214px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .meanbox {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .frameworkheading {
+        font-size: 35px;
+        line-height: 39px;
+        height: auto;
+    }
+
+    .frameworkpragpha {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+
+    .ourframwork,
+    .ourpdlc {
+        font-size: 14px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo {
+        font-size: 16px;
+        width: 95%;
+        line-height: 22px;
+    }
+
+    .discoverhead,
+    .desinghead,
+    .bulidhead,
+    .definehead,
+    .testinghead {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .ideadiscussionhead,
+    .ideavalidationhead,
+    .prototypinghead,
+    .productdevelopementhead,
+    .qualityassurancehead,
+    .productlaunchhead {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .ideadiscussioninfo,
+    .ideavalidationinfo,
+    .prototypinginfo,
+    .productdevelopementinfo,
+    .qualityassuranceinfo,
+    .productlaunchinfo {
+        font-size: 16px;
+        width: 95%;
+        line-height: 22px;
+        margin-top: 5px;
+    }
+
+    .pdlcheading {
+        font-size: 35px;
+        line-height: 39px;
+        height: auto;
+    }
+
+    .pdlcpragpha {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+
+    .subcontainer2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+    .frameworkcontainer {
+        height: 270px;
+    }
+    .discover,
+    .pdlcidea1,
+    .pdlcidea2,
+    .desing{
+        margin-top: 0px;
+    }
+    .pdlcidea3,
+    .pdlcidea4,
+    .define,
+    .bulid {
+        margin-top: 30px;
+    }
+
+    .pdlcidea5,
+    .pdlcidea6,
+    .testing {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .subcontainer {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 30px;
+    }
+
+    .frameworkfirstpage {
+        margin: auto;
+        width: 90%;
+    }
+    .frameworkfirstpage1 {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .frameworkimg img {
+        margin-left: 5px;
+        height: 141px;
+        width: auto;
+        margin-top: 50px;
+    }
+
+    .meanbox {
+        width: auto;
+    }
+
+    .meanbox1 {
+        height: auto;
+        width: auto;
+    }
+
+    .frameworkheading {
+        font-size: 30px;
+        line-height: 39px;
+        height: auto;
+    }
+
+    .frameworkpragpha {
+        font-size: 16px;
+        line-height: 23px;
+        height: auto;
+    }
+
+    .ourframwork,
+    .ourpdlc {
+        font-size: 12px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo {
+        font-size: 14px;
+        width: 90%;
+        line-height: 20px;
+        margin-top: auto;
+    }
+
+    .discoverhead,
+    .desinghead,
+    .bulidhead,
+    .definehead,
+    .testinghead {
+        font-size: 17px;
+        line-height: 38px;
+    }
+
+    .ideadiscussionhead,
+    .ideavalidationhead,
+    .prototypinghead,
+    .productdevelopementhead,
+    .qualityassurancehead,
+    .productlaunchhead {
+        font-size: 17px;
+        line-height: 38px;
+    }
+
+    .ideadiscussioninfo,
+    .ideavalidationinfo,
+    .prototypinginfo,
+    .productdevelopementinfo,
+    .qualityassuranceinfo,
+    .productlaunchinfo {
+        font-size: 14px;
+        width: 90%;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .pdlcheading {
+        line-height: 33px;
+        font-size: 28px;
+        height: auto;
+        width: auto;
+    }
+
+    .pdlcpragpha {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .subcontainer2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+    .frameworkcontainer {
+        height: auto;
+    }
+    .pdlcidea1,
+    .pdlcidea2,
+    .desing,
+    .discover{
+        margin-top: 5px;
+    }
+    .pdlcidea3,
+    .pdlcidea4,
+    .define,
+    .bulid {
+        margin-top: 30px;
+    }
+
+    .pdlcidea5,
+    .pdlcidea6,
+    .testing {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:605px) {
+    .subcontainer {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+    }
+
+    .frameworkfirstpage {
+        margin: auto;
+        width: 90%;
+    }
+    .frameworkfirstpage1 {
+        margin-top: 30px;
+        width: 90%;
+    }
+    .subcontainer2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 40px;
+    }
+    .pdlcidea2,
+    .desing{
+        margin-top: 30px;
+    }
+    .pdlcidea3,
+    .pdlcidea4,
+    .define,
+    .bulid {
+        margin-top: 30px;
+    }
+
+    .pdlcidea5,
+    .pdlcidea6,
+    .testing {
+        margin-top: 30px;
+    }
+
+    /* .frameworkcontainer {
+        height: 245px;
+    } */
+}
+
+@media screen and (max-width:425px) {
+    .subcontainer {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+    }
+
+    .frameworkfirstpage {
+        margin: auto;
+        width: 90%;
+    }
+    .frameworkfirstpage1 {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .frameworkimg img {
+        margin-left: 5px;
+        height: 88px;
+        width: auto;
+        margin-top: 71px;
+    }
+
+    .meanbox {
+        width: auto;
+    }
+
+    .frameworkheading {
+        font-size: 25px;
+        line-height: 30px;
+        height: auto;
+    }
+
+    .frameworkpragpha {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 7px;
+    }
+
+    .ourframwork {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo {
+        font-size: 12px;
+        width: auto;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .discoverhead,
+    .desinghead,
+    .bulidhead,
+    .definehead,
+    .testinghead {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .ideadiscussionhead,
+    .ideavalidationhead,
+    .prototypinghead,
+    .productdevelopementhead,
+    .qualityassurancehead,
+    .productlaunchhead {
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+
+    .ideadiscussioninfo,
+    .ideavalidationinfo,
+    .prototypinginfo,
+    .productdevelopementinfo,
+    .qualityassuranceinfo,
+    .productlaunchinfo {
+        font-size: 12px;
+        width: auto;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .pdlcheading {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .pdlcpragpha {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .subcontainer2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+    }
+
+    .frameworkcontainer {
+        height: auto;
+    }
+
+    .pdlcidea2 {
+        margin-top: 30px;
+    }
+
+    .pdlcidea3,
+    .pdlcidea4 {
+        margin-top: 30px;
+    }
+
+    .pdlcidea5,
+    .pdlcidea6 {
+        margin-top: 30px;
+    }
+}

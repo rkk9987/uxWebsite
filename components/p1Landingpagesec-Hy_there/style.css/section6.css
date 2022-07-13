@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.hy_there_section{
+    width: 100%;
+    max-width: 1075px;
+    margin: 90px auto 0 auto;
+}
+.greet_heading{
+    max-width: 892px;
+    width: 70%;
+}
+.greetingwish{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+.conversation_heading{
+    max-width: 532px;
+    width: 60%;
+}
+.conversation{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.enquiry_cards{
+    margin-top: 34px;
+    display: flex;
+    overflow-x: auto;
+}
+.enquiry_cards::-webkit-scrollbar{
+    width: 0;
+}
+.enquiry_box{
+    max-width: 345px;
+    width: 100%;
+    height: auto;
+    background: #F7F4BA;
+    border-radius: 15px;
+    margin-right: 19px;
+    flex-shrink: 1;
+}
+.enuiryhead{
+    max-width: 143px;
+    width: 53%;
+}
+.enquiry_content{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.main_enquiry{
+    margin: 86px 21px 0 50px;
+}
+.enquiry_sec{
+    max-width: 215px;
+    width: 100%;
+    margin-top: 30px;
+}
+.enquiry_para{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.enquiry_btn{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 15px;
+    max-width: 225px;
+    width: 80%;
+    margin-top: 45px;
+    margin-bottom: 58px;
+    padding: 10px;
+}

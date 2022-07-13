@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.ourrecentclient {
+    margin-left: 182px;
+    margin-right: 345px;
+    margin-top: 61px;
+    max-width: 1440px;
+}
+
+.recentclientcontainer {
+    max-width: 910px;
+    width: 100%;
+    /* margin: 61px auto 0px auto; */
+}
+
+
+.ourclients {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.worksetup {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    /* border: 1px solid salmon; */
+    margin-top: 13px;
+    max-width: 893px;
+    width: 100%;
+}
+
+.ourclientcard {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.clientcard1,
+.clientcard2,
+.clientcard3 {
+    max-width: 274px !important;
+    width: 274px;
+    height: 353px;
+    overflow: hidden;
+    /* border: 1px solid purple; */
+    background-color: #F7F4BA;
+    margin-top: 41px;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.clientcard2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.clientcard1 img,
+.clientcard2 img,
+.clientcard3 img {
+    width: 196px;
+    height: 196px;
+    margin-top: 28px;
+}
+
+.clientcompanyname {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 178.62%;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 13px;
+}
+
+.clientbrandname {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 178.62%;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}

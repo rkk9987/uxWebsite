@@ -1,0 +1,376 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Manrope';
+}
+
+.ourServices{
+    width: 100%;
+    max-width: 1075px;
+    margin: 166px auto 0 auto;
+}
+
+.ourServices_head {
+    width: 90%;
+    max-width: 446px;
+}
+
+.OS_heading_text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.ourServices_summary {
+    width: 60%;
+    max-width: 714px;
+}
+
+.OS_summary_text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.services_names {
+    margin-top: 29px;
+}
+
+.about_services {
+    display: flex;
+    width: 78%;
+    max-width: 835px;
+    justify-content: space-between;
+}
+
+.reserch_headline {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.research_summary {
+    width: 29%;
+    max-width: 256px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+.srv_cls {
+    margin-top: 40px;
+}
+
+li.view_more_cls {
+    list-style-type: none;
+     display: none;
+     color: #0d6efd;
+}
+
+ 
+
+li.view_less_cls {
+    list-style-type: none;
+    display: none;
+    color: #0d6efd;
+}
+
+
+/* responsive style */
+
+
+
+@media(min-width:320px) and (max-width:425px){
+    .ourServices {
+        margin: 40px auto 0 auto;
+    }
+
+    .ourServices {
+        margin: 40px 10px 0 10px;
+        width: auto;
+    }
+
+    .OS_heading_text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #000000;
+        text-align: center;
+    }
+    .ourServices_head {
+        width: 79%;
+    max-width: 446px;
+    margin: auto;
+    }
+
+    .OS_summary_text {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .ourServices_summary {
+        width: 89%;
+        max-width: 714px;
+        text-align: center;
+        margin: 10px auto 0 auto;
+    }
+
+    .about_services {
+        display: grid;
+        width: 100%;
+        max-width: 835px;
+        justify-content: center;
+    }
+
+    .researchs_list {
+        margin-top: 20px;
+    }
+
+    .research_summary {
+        width: auto;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #000000;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .research {
+        text-align: center;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li.view_more_cls {
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
+
+    li.view_less_cls {
+        list-style-type: none;
+        justify-content: end;
+    }
+
+    .listItems1{
+        display: none;
+    }
+    .listItems2{
+        display: none;
+    }
+    .listItems3{
+        display: none;
+    }
+
+}
+
+
+@media(min-width:426px) and (max-width:768px){
+    .ourServices {
+        width: auto;
+        max-width: 1075px;
+        margin: 55px 20px 0 20px;
+    }
+
+    .OS_heading_text {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+        color: #000000;
+    }
+
+    .OS_summary_text {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    .ourServices_head {
+        width: 55%;
+        max-width: 446px;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .about_services {
+        display: flex;
+        width: 94%;
+        max-width: 685px;
+        justify-content: space-between;
+    }
+
+    li.view_more_cls {
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
+
+    .ourServices_summary {
+        width: 68%;
+        max-width: 402px;
+    }
+
+    li.view_less_cls {
+        list-style-type: none;
+        justify-content: end;
+    }
+    .listItems1{
+        display: none;
+    }
+    .listItems2{
+        display: none;
+    }
+    .listItems3{
+        display: none;
+    }
+}
+
+@media(min-width:426px) and (max-width:600px){
+    .about_services {
+        display: grid;
+        width: 100%;
+        max-width: 835px;
+    }
+
+    .researchs_list {
+        margin-top: 20px;
+    }
+
+    .research_summary {
+        width: 100%;
+        max-width: 256px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #000000;
+        margin-top: 20px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li.view_more_cls {
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
+
+    li.view_less_cls {
+        list-style-type: none;
+        justify-content: end;
+    }
+    .listItems1{
+        display: none;
+    }
+    .listItems2{
+        display: none;
+    }
+    .listItems3{
+        display: none;
+    }
+}
+
+
+
+@media(min-width:768px) and (max-width:1024px){
+
+.ourServices {
+    width: auto;
+    max-width: 1075px;
+    margin: 80px 30px 0 30px;
+}
+
+.OS_heading_text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.OS_summary_text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.about_services {
+    display: flex;
+    width: 93%;
+    max-width: 747px;
+    justify-content: space-between;
+}
+
+.ourServices_head {
+    width: 50%;
+    max-width: 446px;
+}
+
+.ourServices_summary {
+    width: 60%;
+    max-width: 714px;
+}
+
+li.view_more_cls {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+li.view_less_cls {
+    list-style-type: none;
+    justify-content: end;
+}
+.listItems1{
+    display: none;
+}
+.listItems2{
+    display: none;
+}
+.listItems3{
+    display: none;
+}
+
+}
+
+@media(min-width:1025px) and (max-width:1150px){
+    .ourServices {
+        width: 100%;
+        max-width: 1075px;
+        margin: 166px auto 0 auto;
+        padding: 0 50px 0 50px;
+    }
+
+    .ourServices_summary {
+        width: 68%;
+        max-width: 714px;
+    }
+}

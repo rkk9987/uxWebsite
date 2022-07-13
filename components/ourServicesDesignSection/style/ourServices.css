@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.research,.design,.build{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 79px;
+}
+
+.design{
+    margin-top: 144px;
+}
+
+.build{
+
+    margin-top: 100px;
+}
+.researchContainer{
+
+    width: 90%;
+    max-width: 1077px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.researchHeadingContainer,.designHeadingContainer{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 966px;
+}
+
+.designHeadingContainer{
+    max-width: 1075px;
+}
+
+.researchLeftContainer{
+display: flex;
+flex-direction: column;
+width: 80%;
+max-width: 710px;
+margin-right: 15px;
+}
+.researchHeading{
+    height: 60px;
+}
+.researchHeading span{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    border-bottom: 2px solid black;
+}
+
+.headingDownContainer{
+    display: flex;
+    margin-top: 15px;
+}
+
+.researchDescription{
+   
+}
+
+.researchDescription p{
+    font-weight: 500;
+font-size: 25px;
+line-height: 34px;
+color: #000000;
+}
+
+.researchImg{
+    width: 205px;
+    
+}
+.designImg{
+    width: 251px;
+}
+.designImg img{
+    width: 100%;
+}
+
+.researchImg img{
+    width: 100%;
+}
+
+.researchDescriptionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 82px;
+    justify-content: space-between;
+}
+
+.researchCards{
+    width: 48%;
+    max-width: 527px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    flex-direction: column;
+}
+
+.cardHeading span{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    
+    color: #000000;
+    
+}
+
+.cardPara p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+word-wrap: break-word;
+min-height: 83px;
+color: #000000;
+}
+
+
+/* Responsive Section  */
+
+@media (min-width:320px) and (max-width:425px){
+
+    .design{
+        margin-top: 65px;
+    }
+    .researchHeading span {
+         
+        font-size: 28px;
+        
+    }
+    .researchDescription p {
+        font-size: 15px;
+        line-height: 21px;
+        
+    }
+    .researchImg,.designImg {
+        min-width: 103px;
+        width: 10%;
+        max-width: 220px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .researchImg img,.designImg img {
+        width: 94%;
+        height: 49%;
+    }
+
+    .researchDescriptionContainer {
+        
+        margin-top: 40px;
+        
+    }
+    .headingDownContainer {
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .researchCards{
+        min-width: 271px;
+        margin-bottom: 30px;
+    }
+
+    .cardHeading span{
+        font-size: 20px;
+    }
+
+    .cardPara p{
+        font-size: 15px;
+    line-height: 23px;
+    }
+}
+@media (min-width:425px) and (max-width:769px){
+    .design{
+        margin-top: 105px;
+    }
+
+    .researchHeading span {
+         
+        font-size: 35px;
+        
+    }
+    .researchDescription p {
+        
+        font-size: 20px;
+        line-height: 27px;
+        
+    }
+    .researchImg,.designImg {
+        min-width: 120px;
+        width: 10%;
+        max-width: 220px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .researchImg img,.designImg img {
+        width: 94%;
+        height: 57%;
+    }
+
+    .researchDescriptionContainer {
+        
+        margin-top: 70px;
+        
+    }
+
+
+    .researchCards{
+        min-width: 294px;
+        margin-bottom: 30px;
+    }
+
+    .cardHeading span{
+        font-size: 20px;
+    }
+
+    .cardPara p{
+        font-size: 15px;
+    line-height: 23px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+
+    .researchImg ,.designImg{
+        width: 220px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .researchImg img,.designImg img {
+        width: 90%;
+        height: 82%;
+    }
+}

@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+/* Section_first */
+
+section#Join_our_internship {
+    margin: 120px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1075px;
+    height: fit-content;
+}
+
+.SF_left_column {
+    max-width: fit-content;
+    width: 60%;
+    height: auto;
+    display: grid;
+    align-items: center;
+}
+
+div#SF_heading {
+    width: 80%;
+    max-width: 371px;
+    height: auto;
+    /* max-height: 55px; */
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+span.SF_heading_1 {
+    color: #000000;
+}
+
+.SF_head_text {
+    max-width: 625px;
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+}
+
+span.SF_summary {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+span.SF_heading_2 {
+    color: red;
+}
+
+.SF_right_column {
+    max-width: fit-content;
+    width: 40%;
+    height: fit-content;
+}
+
+img.SF_internship_img {
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    max-height: 380px;
+}
+
+.SF_text {
+    width: 100%;
+    max-width: 625px;
+}
+
+.SF_button {
+    height: 70px;
+}
+
+.SF_whatsapp_btn {
+    Width: 242px;
+    Height: 59px;
+    background: #25D366;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: rgb(0 0 0 / 65%) 0px 3px 1px -1px, rgb(0 0 0 / 8%) 0px -1px 0px inset;
+}
+
+.SF_whatsapp_text {
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+/* Second Section */
+
+.section-heading {
+    margin-top: 151px;
+}
+
+.section-heading h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.cards-section {
+    width: 80%;
+    max-width: 1074px;
+    margin: 55px auto 0 auto;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 170%;
+    /* justify-content: space-between; */
+}
+
+.cards .card-item {
+    background: #F7F4BA;
+    border-radius: 15px;
+    min-width: 164.19px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+
+.SC_bottom_text {
+    margin: 35px auto 0 auto;
+    width: 80%;
+    max-width: 1074px;
+    text-align: center;
+    height: auto;
+}
+
+.SC_summary {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+
+
+/* Third Section */
+
+.STHIRD_summary {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#grow_together {
+    display: flex;
+    margin: 24px auto 0 auto;
+    width: 932px;
+    background: #A7E5FF;
+    height: 134px;
+    border-radius: 25px;
+}
+
+.STHIRD_background {
+    width: 90%;
+    max-width: 792px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    /* justify-items: center; */
+    justify-items: center;
+}
+
+.STHIRD_text {
+        width: 60%;
+        max-width: 472px;
+}
+
+
+.STHIRD_button {
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+.STIRD_button {
+    height: 66px;
+}
+
+.STHIRD_whatsapp_btn {
+    Width: 242px;
+    Height: 59px;
+    background: #25D366;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 8px 8px -10px #000000;
+}
+
+.STHIRD_whatsapp_text {
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+
+
+/* Sexction Fourth */
+
+section#internship_program {
+    margin: 130px auto 0 auto;
+    width: 72%;
+    max-width: 1075px;
+}
+
+.SFOURTH_heding {
+    width: 94%;
+    max-width: 868px;
+    margin: auto;
+    text-align: center;
+}
+
+.SFOURTH_summary {
+    width: 95%;
+    max-width: 933px;
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.SFOURTH_head_text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.SFOURTH_summary_text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.SFOURTH_cards {
+    margin: 36px auto 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1075px;
+    justify-content: space-between;
+}
+
+.Learn-from-experts {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Master-your-trade {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Get-certified {
+    width: 70%;
+    max-width: 156px;
+}
+
+.SFOURTH_card1_img {
+    text-align: center;
+}   
+
+.SFOURTH_card2_img {
+    text-align: center;
+}
+
+.SFOURTH_card3_img {
+    text-align: center;
+}
+
+.SFOURTH_card1_text {
+    text-align: center;
+}
+
+span.SFOURTH_card1_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.SFT_C1_summary {
+    max-width: 230px;
+    width: 97%;
+    margin: auto;
+}
+
+span.SFOURTH_card1_summary {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+span.SFOURTH_card2_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.SFT_C2_summary {
+    max-width: 230px;
+    width: 95%;
+    margin: auto;
+}
+
+.SFOURTH_card2_text {
+    text-align: center;
+}
+
+
+.SFOURTH_card3_text {
+    text-align: center;
+}
+
+span.SFOURTH_card3_summary {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+span.SFOURTH_card2_summary {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+span.SFOURTH_card3_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}   
+
+.SFT_C3_summary {
+    max-width: 230px;
+    width: 78%;
+    margin: auto;
+}
+
+
+/* section Fifth  */
+
+#how_it_works {
+    margin: 104px auto 0 auto;
+    width: 72%;
+    max-width: 1075px;
+}
+
+.SFIFTH_heding {
+    width: 94%;
+    max-width: 868px;
+    margin: auto;
+    text-align: center;
+}
+
+.SFIFTH_summary {
+    width: 95%;
+    max-width: 933px;
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.SFIFTH_head_text {
+    font-weight: 800;
+font-size: 40px;
+line-height: 55px;
+}
+
+.SFIFTH_summary_text {
+    font-weight: 300;
+font-size: 24px;
+line-height: 33px;
+}
+
+.SFIFTH_cards {
+    margin: 36px auto 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1075px;
+    justify-content: space-between;
+}
+
+.Learn-from-experts {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Master-your-trade {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Get-certified {
+    width: 70%;
+    max-width: 156px;
+}
+
+.SFIFTH_card1_img {
+    text-align: center;
+}   
+
+.SFIFTH_card2_img {
+    text-align: center;
+}
+
+.SFIFTH_card3_img {
+    text-align: center;
+}
+
+.SFIFTH_card1_text {
+    text-align: center;
+}
+
+.SFIFTH_card1_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.SFiveT_C1_summary {
+    max-width: 230px;
+    width: 97%;
+    margin: auto;
+}
+
+.SFIFTH_card1_summary {
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+
+.SFIFTH_card2_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.SFiveT_C2_summary {
+    max-width: 230px;
+    width: 95%;
+    margin: auto;
+}
+
+.SFIFTH_card2_text {
+    text-align: center;
+}
+
+.SFIFTH_card2_summary {
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+
+
+.SFIFTH_card3_text {
+    text-align: center;
+}
+
+.SFIFTH_card3_summary {
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+
+.SFIFTH_card3_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}   
+
+.SFiveT_C3_summary {
+    max-width: 230px;
+    width: 78%;
+    margin: auto;
+}
+
+.apply {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.meet {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.offer{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}

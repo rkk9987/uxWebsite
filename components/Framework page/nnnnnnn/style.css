@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+section {
+    font-family: 'manrope';
+}
+
+
+nav ul {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+    max-width: 1075px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.top-navbar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}

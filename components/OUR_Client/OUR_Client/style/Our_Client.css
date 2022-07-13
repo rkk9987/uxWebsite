@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.our_recent_client {
+    margin-left: 184px;
+    margin-right: 345px;
+    margin-top: 61px;
+}
+
+.recent_client_container {
+    max-width: 910px;
+    width: 100%;
+}
+
+
+.our_clients {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+}
+
+.work_setup {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-top: 13px;
+    max-width: 893px;
+    width: 100%;
+}
+
+.our_client_card {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.client_card_1,
+.client_card_2,
+.client_card_3 {
+    max-width: 274px !important;
+    width: 274px;
+    height: 353px;
+    overflow: hidden;
+    background-color: #F7F4BA;
+    margin-top: 41px;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.client_card_2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.client_card_1 img,
+.client_card_2 img,
+.client_card_3 img {
+    width: 196px;
+    height: 196px;
+    margin-top: 28px;
+}
+
+.client_company_name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 178.62%;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-top: 13px;
+}
+
+.client_brand_name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 178.62%;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+/**************** RESPONSIVE CSS ****************/
+
+
+@media screen and (max-width:1440px) {
+    .our_recent_client {
+        margin-top: 90px;
+        margin-left: 171px;
+        margin-right: 190px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .our_recent_client {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .our_clients {
+        font-size: 30px;
+        line-height: 39px;
+
+    }
+
+    .work_setup {
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    .our_client_card {
+        overflow-x: scroll;
+    }
+
+    .client_card_1,
+    .client_card_2,
+    .client_card_3 {
+        margin-top: 41px;
+        width: 231px;
+        height: 300px;
+    }
+
+    .client_card_1 img,
+    .client_card_2 img,
+    .client_card_3 img {
+        width: 140px;
+        height: 150px;
+        margin-top: 28px;
+    }
+
+    .client_company_name,
+    .client_brand_name {
+        font-size: 20.50px;
+        line-height: 178%;
+    }
+
+    .our_recent_client {
+        margin-top: 90px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+
+    .our_clients {
+        font-size: 24px;
+        line-height: 39px;
+    }
+
+    .work_setup {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+
+    .our_client_card {
+        overflow-x: scroll;
+    }
+
+    .client_card_1,
+    .client_card_2,
+    .client_card_3 {
+        margin-top: 35px;
+        width: 207px;
+        height: 267px;
+    }
+
+    .client_card_1 img,
+    .client_card_2 img,
+    .client_card_3 img {
+        width: 112px;
+        height: 140px;
+        margin-top: 28px;
+    }
+
+    .client_company_name,
+    .client_brand_name {
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    .our_recent_client {
+        margin-top: 50px;
+        margin-left: 32px;
+        margin-right: 34px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    /* .clientheading{
+        margin-left: 10px;
+    } */
+
+    .our_clients {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .work_setup {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .client_card_1,
+    .client_card_2,
+    .client_card_3 {
+        margin-top: 27px;
+        width: 153px;
+        height: 203px;
+    }
+
+    .our_client_card {
+        overflow-x: scroll;
+    }
+
+    .client_card_1 img,
+    .client_card_2 img,
+    .client_card_3 img {
+        width: 91px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .client_company_name,
+    .client_brand_name {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .our_recent_client {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

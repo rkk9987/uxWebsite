@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 166px;
+}
+
+.section6 .content {
+    width: 932px;
+    height: 151px;
+    background: #A7E5FF;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.section6 .content .cards p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.8868px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+.section6 .content .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.section6 .content .card-item {
+    text-align: center;
+    width: 189px;
+    height: 111px;
+    margin-top: 20px;
+}
+
+.section6 .content .card-item .card-name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.section6 .content .card-item .card-name .card-inner {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.8868px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.vl {
+    border-left: 2px solid #000000;
+    height: 150px;
+}
+
+/* Responsive CSS */
+@media (min-width:769px) and (max-width:1024px) {
+    .section6 .content {
+        width: 680px;
+        height: 151px;
+    }
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 111px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 35px;
+
+    }
+
+    .section6 .content .cards p {
+        font-size: 11.8868px;
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 150px;
+    }
+}
+
+@media (min-width:629px) and (max-width:769px) {
+    .section6 .content {
+        width: 560px;
+        height: 120px;
+    }
+
+    .section6 .content .cards p {
+        font-size: 9.8868px;
+        line-height: 13px;
+    }
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 100px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 30px;
+        line-height: 55px;
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 120px;
+    }
+}
+
+@media (min-width:425px) and (max-width:629px) {
+    .section6 .content {
+        width: 392px;
+        height: 113px;
+    }
+
+    .section6 .content .cards p {
+        font-size: 7.8868px;
+        line-height: 12px;
+    }
+
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 74px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 20px;
+        line-height: 50px;
+
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 113px;
+    }
+}
+
+@media (max-width:425px) {
+    .section6 .content {
+        width: 285px;
+        height: 109px;
+    }
+
+    .section6 .content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .section6 .content .cards p {
+        font-size: 7.8868px;
+        line-height: 11px;
+    }
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 88px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 15px;
+        line-height: 40px;
+
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 109px;
+    }
+}

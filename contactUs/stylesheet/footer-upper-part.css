@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,300;1,400&family=Lobster&family=Manrope:wght@800&family=Monda&family=Nunito:ital,wght@0,300;0,500;0,600;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,600;1,300&family=Poppins:wght@300;400;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,300;1,400&family=Lobster&family=Manrope:wght@800&family=Monda&family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,300;0,500;0,600;1,300;1,400&family=Open+Sans:ital,wght@0,400;0,600;1,300&family=Poppins:wght@300;400;600;700&family=Roboto&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+/* footer upper part */
+body {
+    font-family: 'Montserrat';
+    font-family: 'Manrope';
+    box-sizing: border-box;
+}
+
+.noratingfoq {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23.3476px;
+    line-height: 32px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#foqrjja {
+    background: #353433;
+    margin-top: 159px;
+}
+
+.footeruperpg {
+    padding-top: 49px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #000000;
+}
+
+
+svg {
+    margin-top: -30px;
+}
+
+.socialwriqse {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29.1845px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: -20px;
+    color: #FFFFFF;
+
+}
+
+.socwriqse {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 23.1845px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: -20px;
+    color: #FFFFFF;
+}
+
+#foosrdgjj {
+    background:
+        #000000;
+        
+}
+.footeruxpro{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.hedtextqu {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 86px;
+
+}
+
+.headquetion {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 36px;
+    padding-top: 40px;
+
+}
+.footratstar23{
+    margin-right: 10px;
+}
+hr{
+    /* border: 3px solid white !important; */
+    border-bottom: 3px solid white !important;
+    width: 100%;
+}
+@media screen and (min-width:1440px){
+    .footeruxpro,
+    .footeruperpg{
+        justify-content: space-between;
+        margin: auto;
+        display: flex;
+        width: 1022px;
+    }
+}
+@media screen and (max-width:768px) {
+    .hedtextqu {
+        font-size: 16px
+    }
+
+    .headquetion {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .socwriqse {
+        font-size: 20px;
+    }
+
+    .socialwriqse {
+        font-size: 20px;
+    }
+   
+}
+
+@media screen and (max-width:576px) {
+    .hedtextqu {
+        font-size: 16px
+    }
+
+    .headquetion {
+        font-size: 16px;
+        margin-top: -10px;
+    }
+
+    .socwriqse {
+        font-size: 16px;
+    }
+
+    .socialwriqse {
+        font-size: 16px;
+    }
+    /* .footeruxpro{
+        height: 200px;
+    } */
+    .footeruxpro{
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+   
+}
+@media screen and (max-width:425px) {
+    .hedtextqu,.socialwriqse,  .headquetion , .socwriqse {
+        font-size: 12px
+    }
+    .footratstar,
+    .footratstar22,
+    .footratstar23,
+    .noratingfoq{
+        font-size: 14px;
+    }
+    .footeruxpro{
+        margin: 0 10px;
+    }
+    .headquetion {
+        margin-top: -10px;
+    }
+    .footeruxpro{
+        margin-top: -30px;
+        margin-bottom: -20px;
+    }
+
+    #foqrjja {
+        background: #353433;
+        margin-top: 50px;
+    }
+   
+}

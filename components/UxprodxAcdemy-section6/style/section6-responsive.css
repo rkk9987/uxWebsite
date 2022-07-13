@@ -1,0 +1,125 @@
+@media (min-width:769px) and (max-width:1024px) {
+    .section6 .content {
+        width: 680px;
+        height: 151px;
+    }
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 111px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 35px;
+
+    }
+
+    .section6 .content .cards p {
+        font-size: 11.8868px;
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 150px;
+    }
+}
+
+@media (min-width:629px) and (max-width:769px) {
+    .section6 .content {
+        width: 560px;
+        height: 120px;
+    }
+
+    .section6 .content .cards p {
+        font-size: 9.8868px;
+        line-height: 13px;
+    }
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 100px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 30px;
+        line-height: 55px;
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 120px;
+    }
+}
+
+@media (min-width:425px) and (max-width:629px) {
+    .section6 .content {
+        width: 392px;
+        height: 113px;
+    }
+
+    .section6 .content .cards p {
+        font-size: 7.8868px;
+        line-height: 12px;
+    }
+
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 74px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 20px;
+        line-height: 50px;
+
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 113px;
+    }
+}
+
+@media (max-width:425px) {
+    .section6 .content {
+        width: 285px;
+        height: 109px;
+    }
+
+    .section6 .content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .section6 .content .cards p {
+        font-size: 7.8868px;
+        line-height: 11px;
+    }
+
+    .section6 .content .card-item {
+        width: 189px;
+        height: 88px;
+    }
+
+    .section6 .content .card-item .card-name {
+        font-size: 15px;
+        line-height: 40px;
+
+    }
+
+    .section6 .content .card-item .card-name .card-inner {
+        font-size: 13.8868px;
+    }
+
+    .vl {
+        height: 109px;
+    }
+}

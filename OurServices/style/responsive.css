@@ -1,0 +1,109 @@
+@media (min-width: 320px) and (max-width: 425px) {
+  section#first {
+    width: 81%;
+    height: 285px;
+    
+  }
+#first{
+  margin-top: 82px;
+}
+  .first_text{
+    margin-top: 80px;
+  
+  }
+
+  .second_text span{
+    margin-bottom: 0px;
+    width: 95%;
+    font-size: 16px;
+    line-height: 79px;
+    margin-top: 0px;
+  }
+
+  .top_text {
+    font-size: 15px;
+    line-height: 25px;
+
+  }
+
+  .botton_down button {
+    width: 162px;
+    height: 52px;
+    line-height: 38px;
+    font-size: 20px;
+  }
+  
+}
+
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+  section#first {
+    width: 80%;  
+    height: 300px; 
+    margin-bottom: 0;
+  }
+  #first{
+    margin-top: 82px;
+  }
+
+  .first_text{
+    margin-top: 67px;
+  }
+
+  .second_text span {
+    margin-bottom: 0px;
+    width: 65%;
+    font-size: 15px;
+  }
+
+  .top_text {
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .botton_down button {
+    width: 180px;
+    height: 53px;
+    line-height: 37px;
+    font-size: 21px;
+  
+  }
+  .second_text span{
+    margin-bottom: 0px;
+    width: 84%;
+    font-size: 19px;
+    line-height: 66px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  section#first {
+    width: 70%;
+    height: 400px;
+  }
+
+  .first_text {
+    margin-top: 90px;
+}
+
+  .second_text span {
+    font-size: 32px;
+    line-height: 48px;
+    width: 87%;
+    margin-bottom: 0px;
+
+  }
+  .top_text {
+    font-size: 28px;
+    line-height: 52px;
+  }
+
+  .botton_down button {
+    width: 262px;
+    height: 77px;
+    line-height: 46px;
+    font-size: 33px;
+
+  }
+}

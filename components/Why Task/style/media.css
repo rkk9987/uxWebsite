@@ -1,0 +1,247 @@
+@media screen and (max-width:1440px) {
+    .whytochooseus {
+        margin: 132px auto 0 auto;
+        height: 230px;
+    }
+
+    /* .whycontainer {} */
+
+    .chooseus {
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+    .whychooseusheading {
+        font-size: 40px;
+        line-height: 103.9%;
+        margin-top: 6px;
+        height: 43px;
+    }
+
+    .whychooseinfo {
+        font-size: 24px;
+        line-height: 33px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .whytochooseus {
+        margin: 70px auto 0 auto;
+        height: 230px;
+    }
+
+    /* .whycontainer {} */
+
+    .chooseus {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .whychooseusheading {
+        font-size: 32px;
+        line-height: 103.9%;
+        margin-top: 6px;
+        height: 43px;
+    }
+
+    .whychooseinfo {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .bestthings {
+        height: auto;
+    }
+
+    .innovation {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .innovationheading {
+        font-size: 23px;
+        line-height: 20px;
+    }
+
+    .experienceheading,
+    .shippabilityheading,
+    .transparencyheading,
+    .dedicatedheading {
+        font-size: 23px;
+        line-height: 20px;
+    }
+
+    .innovationtextp {
+        font-size: 17px;
+        line-height: 17px;
+        width: 60%;
+    }
+
+    .ecperiencetextp,
+    .shippabilitytextp,
+    .transparencytextp,
+    .dedicatedtextp {
+        font-size: 17px;
+        line-height: 17px;
+        width: 60%;
+    }
+
+    .experience,
+    .dedicatedteams,
+    .shippability,
+    .transparency {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .whytochooseus {
+        margin: 55px auto 0 auto;
+        height: auto;
+    }
+
+    /* .whycontainer {} */
+
+    .chooseus {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .whychooseusheading {
+        font-size: 24px;
+        line-height: 103.9%;
+        margin-top: 6px;
+        height: auto;
+    }
+
+    .whychooseinfo {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 9px;
+    }
+
+    .bestthings {
+        height: auto;
+    }
+
+    .innovation {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .innovationheading {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .experienceheading,
+    .shippabilityheading,
+    .transparencyheading,
+    .dedicatedheading {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .innovationtextp {
+        font-size: 14px;
+        line-height: 18px;
+        width: 60%;
+    }
+
+    .ecperiencetextp,
+    .shippabilitytextp,
+    .transparencytextp,
+    .dedicatedtextp {
+        font-size: 14px;
+        line-height: 18px;
+        width: 60%;
+        ;
+    }
+
+    .experience,
+    .dedicatedteams,
+    .shippability,
+    .transparency {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .whytochooseus {
+        /* margin: 132px auto 0 auto; */
+        height: auto;
+    }
+
+    /* .whycontainer {} */
+
+    .chooseus {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .whychooseusheading {
+
+        font-size: 16px;
+        line-height: 103.9%;
+        margin-top: 3px;
+        height: auto;
+    }
+
+    .whychooseinfo {
+        font-size: 12px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+
+    .bestthings {
+        height: auto;
+    }
+
+    .innovation {
+        flex-direction: column;
+    }
+
+    .innovationheading {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    .experienceheading,
+    .shippabilityheading,
+    .transparencyheading,
+    .dedicatedheading {
+        font-size: 17px;
+        line-height: 34px;
+    }
+
+    .innovationtextp {
+        font-size: 12px;
+        line-height: 18px;
+        width: auto;
+    }
+
+    .ecperiencetextp,
+    .shippabilitytextp,
+    .transparencytextp,
+    .dedicatedtextp {
+        font-size: 12px;
+        line-height: 18px;
+        width: auto;
+    }
+
+    .experience,
+    .dedicatedteams,
+    .shippability,
+    .transparency {
+        margin-top: 45px;
+        flex-direction: column;
+    }
+}

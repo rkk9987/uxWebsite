@@ -1,0 +1,945 @@
+@media (min-width:320px ) and (max-width:425px){
+
+    /* Navbar Component */
+
+    
+
+    /* section First */
+
+     section#Join_our_internship {
+        margin: 40px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1075px;
+        height: fit-content;
+    }
+
+    div#SF_heading {
+        width: 100%;
+        max-width: 371px;
+        height: auto;
+        /* max-height: 55px; */
+        font-weight: 800;
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    .SF_whatsapp_btn {
+        max-Width: 242px;
+        width: 85%;
+        Height: 42px;
+    }
+
+    .SF_button {
+        height: 50px;
+    margin-top: 20px;
+    }
+   
+
+    .SF_whatsapp_text {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-left: 8px;
+    }
+
+    .SF_head_text {
+        max-width: 625px;
+        width: 100%;
+        height: auto;
+        /* margin-top: 35px; */
+    }
+
+    img.SF_internship_img {
+        width: 100%;
+        max-width: 380px;
+        height: 15rem;
+        max-height: 380px;
+    }
+
+    span.SF_summary {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .SF_right_column {
+    width: 40%;
+    display: flex;
+    align-self: flex-end;
+    } 
+
+
+    /* section Second */
+
+    .section-heading {
+        margin-top: 40px;
+    }
+
+    .cards-section {
+        width: 80%;
+        max-width: 1074px;
+        margin: 40px auto 0 auto;
+    }
+
+    .SC_summary {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 25px;
+        color: #000000;
+    }
+
+    .STHIRD_summary {
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 23px !important;
+    }
+
+    #grow_together {
+        display: flex;
+        margin: 24px auto 0 auto;
+        width: 90%;
+    }
+
+
+    /* section Third */
+
+    .STIRD_button {
+        width: 49%;
+        max-width: 130px;
+            height: 43px;
+    }
+
+    .STHIRD_whatsapp_btn {
+        Width: 99%;
+        max-width: 200px;
+        Height: 39px;
+        background: #25D366;
+    }
+
+    img.SF_whstsapp {
+        width: 14%;
+    }
+
+    .STHIRD_whatsapp_text {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-left: 2%;
+    }
+
+    #grow_together {
+        display: flex;
+        margin: 24px auto 0 auto;
+        width: 90%;
+        height: 4rem;
+    }
+
+    /* section fourth */
+
+    section#internship_program {
+        margin: 40px auto 0 auto;
+        width: 90%;
+        max-width: 1075px;
+    }
+
+    .SFOURTH_head_text {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 34px;
+    }
+
+    .SFOURTH_summary_text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .SFOURTH_cards {
+        margin: 0px auto 0 auto;
+        display: grid;
+        width: 100%;
+        max-width: 1075px;
+        justify-content: center;
+    }
+
+    .SFOURTH_card2 {
+        margin-top: 10px;
+    }
+
+    .SFOURTH_card3 {
+        margin-top: 10px;
+    }
+
+
+    /* section fifth  */
+
+    #how_it_works {
+        margin: 40px auto 0 auto;
+        width: 90%;
+        max-width: 1075px;
+    }
+
+    .SFIFTH_head_text {
+        font-weight: 800;
+        font-size: 23px;
+    }
+
+    .SFIFTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        /* line-height: 33px; */
+    }
+
+    .SFIFTH_summary {
+        margin-top: 0px;
+    }
+
+    .SFIFTH_cards {
+        margin: 15px auto 0 auto;
+        display: grid;
+        width: 100%;
+        max-width: 1075px;
+        justify-content: center;
+    }
+
+    .apply {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .SFIFTH_card1_summary {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .meet {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .SFIFTH_card2_summary {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .offer {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .SFIFTH_card3_summary {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+
+}
+
+@media (min-width:425px ) and (max-width:768px){
+
+    
+
+/* section first  */
+
+section#Join_our_internship {
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1075px;
+    height: fit-content;
+}
+
+div#SF_heading {
+    width: 100%;
+    max-width: 371px;
+    height: auto;
+    /* max-height: 55px; */
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.SF_whatsapp_btn {
+    max-Width: 195px;
+    width: 85%;
+    Height: 42px;
+}
+
+.SF_button {
+    height: 50px;
+margin-top: 20px;
+}
+
+
+.SF_whatsapp_text {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+.SF_head_text {
+    max-width: 625px;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+img.SF_internship_img {
+    width: 100%;
+    max-width: 380px;
+    height: 15rem;
+    max-height: 380px;
+}
+
+span.SF_summary {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.SF_right_column {
+width: 40%;
+display: flex;
+align-self: flex-end;
+} 
+
+/* section second */
+
+.section-heading {
+    margin-top: 40px;
+}
+
+.cards-section {
+    margin: 40px auto 0 auto;
+}
+
+.SC_summary {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* Section Third  */
+
+.STIRD_button {
+    width: 49%;
+    max-width: 130px;
+    height: 43px;
+}
+
+.STHIRD_whatsapp_btn {
+    Width: 99%;
+    max-width: 200px;
+    Height: 39px;
+    background: #25D366;
+}
+
+img.SF_whstsapp {
+    width: 14%;
+}
+
+.STHIRD_whatsapp_text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 2%;
+}
+
+#grow_together {
+    display: flex;
+    margin: 24px auto 0 auto;
+    width: 78%;
+    max-width: 500px;
+    height: 4rem;
+}
+
+.STHIRD_summary {
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+}
+
+
+/* Section Fourth */
+
+/* section#internship_program {
+    margin: 40px auto 0 auto;
+    width: 80%;
+    max-width: 1075px;
+}
+
+.SFOURTH_head_text {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.SFOURTH_summary_text {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.SFOURTH_summary {
+    margin-top: 10px;
+} */
+
+.SFOURTH_cards {
+    /* margin: 36px auto 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1075px;
+    justify-content: center;
+    flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+
+/* Section Fifth */
+
+/* #how_it_works {
+    margin: 40px auto 0 auto;
+    width: 80%;
+    max-width: 1075px;
+}
+
+.SFIFTH_head_text {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.SFIFTH_summary_text {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.SFIFTH_summary {
+    margin-top: 10px;
+}
+
+.apply {
+    font-size: 16px;
+}
+
+.SFIFTH_card1_summary {
+    font-size: 16px;
+}
+
+.meet {
+    font-size: 16px;
+}
+
+.SFIFTH_card2_summary {
+    font-size: 16px;
+}
+
+.SFIFTH_card2_summary {
+    font-size: 16px;
+}
+
+.SFIFTH_card3_summary {
+    font-size: 16px;
+}
+
+.SFiveT_C2_summary {
+    max-width: 230px;
+    width: 95%;
+    margin: 10px auto 0 auto;
+} */
+
+}
+
+
+
+@media (min-width: 425px ) and (max-width: 520px){
+    #internship_program {
+        margin: 40px auto 0 auto !important;
+        width: 80% !important;
+        max-width: 1075px !important;
+    }
+    
+    .SFOURTH_head_text {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 35px;
+    }
+    
+    .SFOURTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    
+    .SFOURTH_summary {
+        margin-top: 10px;
+    }
+    .SFOURTH_cards {
+        /* align-items: center; */
+        flex-direction: column;
+        margin: 5px auto 0 auto;
+    }
+
+
+    /* section Fifth  */
+
+
+    #how_it_works {
+        margin: 40px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+    
+    .SFIFTH_head_text {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    
+    .SFIFTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    
+    .SFIFTH_summary {
+        margin-top: 0px;
+    }
+    
+    .apply {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card1_summary {
+        font-size: 16px;
+    }
+    
+    .meet {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card3_summary {
+        font-size: 16px;
+    }
+    
+    .SFiveT_C2_summary {
+        max-width: 230px;
+        width: 95%;
+        margin: 10px auto 0 auto;
+    }
+
+    .SFIFTH_cards {
+        flex-direction: column;
+        margin: 5px auto 0 auto;
+    }
+}
+
+@media (min-width: 521px ) and (max-width: 768px){
+    section#internship_program {
+        margin: 40px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+    
+    .SFOURTH_head_text {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 35px;
+    }
+    
+    .SFOURTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    
+    .SFOURTH_summary {
+        margin-top: 10px;
+    }
+    .SFOURTH_cards {
+        /* align-items: center; */
+        /* flex-direction: column; */
+    }
+
+    span.SFOURTH_card1_heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    span.SFOURTH_card2_heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    span.SFOURTH_card3_heading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    /* Section Fifth */
+
+    #how_it_works {
+        margin: 40px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+    
+    .SFIFTH_head_text {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    
+    .SFIFTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    
+    .SFIFTH_summary {
+        margin-top: 10px;
+    }
+    
+    .apply {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card1_summary {
+        font-size: 16px;
+    }
+    
+    .meet {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card3_summary {
+        font-size: 16px;
+    }
+    
+    .SFiveT_C2_summary {
+        max-width: 230px;
+        width: 95%;
+        margin: 10px auto 0 auto;
+    }
+
+}
+
+
+
+@media (min-width:769px ) and (max-width:1024px){
+
+    /* Navbar Component */
+
+    .academy_logo{
+        width: 31%;
+        max-width: 149px;
+    }
+    .academy_logo img{
+        height: 71px;
+    }
+
+    .navbar_components{
+        width: 72%;
+    }
+    .navbar_components ul{
+        padding-left: 0 !important;
+        width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .nav_item{
+        margin-left: 0;
+    }
+
+    .nav_link{
+        font-size: 15px;
+    }
+
+
+    /* Section First */
+
+    section#Join_our_internship {
+            margin: 55px auto 0 auto;
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        max-width: 1075px;
+        height: fit-content;
+    }
+
+    
+    div#SF_heading {
+        width: 100%;
+        max-width: 371px;
+        height: auto;
+        /* max-height: 55px; */
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 41px;
+    }
+    
+    .SF_whatsapp_btn {
+        max-Width: 195px;
+        width: 85%;
+        Height: 42px;
+    }
+    
+    .SF_button {
+        height: 50px;
+    margin-top: 20px;
+    }
+    
+    
+    .SF_whatsapp_text {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-left: 8px;
+    }
+    
+    .SF_head_text {
+        max-width: 625px;
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+    
+    img.SF_internship_img {
+        width: 100%;
+        max-width: 380px;
+        height: 15rem;
+        max-height: 380px;
+    }
+    
+    span.SF_summary {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+    .SF_right_column {
+    width: 40%;
+    display: flex;
+    align-self: flex-end;
+    } 
+
+
+
+
+
+    /* section Two */
+
+    .section-heading {
+        margin-top: 55px;
+    }
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .SC_summary {
+        font-weight: 300;
+        font-size: 22px;
+    }
+
+    /* Third Section */
+
+    .STIRD_button {
+        width: 46%;
+        max-width: 215px;
+        height: 53px;
+    }
+    
+    .STHIRD_whatsapp_btn {
+        Width: 100%;
+        max-width: 241px;
+        Height: 48px;
+        background: #25D366;
+    }
+    
+    /* img.SF_whstsapp {
+        width: 14%;
+    } */
+    
+    .STHIRD_whatsapp_text {
+        font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 2%;
+    }
+    
+    #grow_together {
+        display: flex;
+        margin: 24px auto 0 auto;
+        width: 65%;
+        max-width: 672px;
+        height: 6.5rem;
+    }
+    
+    .STHIRD_summary {
+        font-weight: 400 !important;
+        font-size: 23px !important;
+        line-height: 32px !important;
+    }
+
+    .STHIRD_background {
+        width: 79%;
+        max-width: 792px;
+        display: inline-flex
+    }
+
+    .STHIRD_text {
+        width: 60%;
+        max-width: 294px;
+    }
+
+
+    /* Section Fourth */
+
+    section#internship_program {
+        margin: 55px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+
+    .SFOURTH_head_text {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .SFOURTH_summary_text {
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 33px;
+    }
+
+    /* Fifth Section */
+
+    #how_it_works {
+        margin: 55px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+
+    .SFIFTH_head_text {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .SFIFTH_summary_text {
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 24px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1024px) {
+    .section-heading h2 {
+        font-size: 35px;
+    }
+
+    .cards {
+
+        width: 209%;
+
+    }
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    /* .section-heading h2 {
+        font-size: 35px;
+    } */
+
+    .cards {
+
+        width: 420%;
+
+    }
+
+
+}
+
+@media (min-width:629px) and (max-width:769px) {
+    .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .cards {
+        width: 440%;
+    }
+
+
+}
+
+@media (min-width:425px) and (max-width:629px) {
+    .section-heading h2 {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .cards {
+        width: 657%;
+    }
+}
+
+@media (max-width:425px) {
+    .section-heading h2 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .cards {
+        width: 890%;
+    }
+}

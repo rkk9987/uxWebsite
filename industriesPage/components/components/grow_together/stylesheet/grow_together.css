@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+.STHIRD_summary {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#grow_together {
+    display: flex;
+    margin: 159px auto 0 auto;
+    width: 932px;
+    background: #A7E5FF;
+    height: 134px;
+    border-radius: 25px;
+}
+
+.STHIRD_background {
+    width: 90%;
+    max-width: 792px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.STHIRD_text {
+        width: 60%;
+        max-width: 472px;
+}
+
+
+.STHIRD_button {
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+.STIRD_button {
+    height: 66px;
+}
+
+.STHIRD_whatsapp_btn {
+    Width: 242px;
+    Height: 59px;
+    background: #25D366;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 8px 8px -10px #000000;
+}
+
+.STHIRD_whatsapp_text {
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+
+/* Responsive Style */
+
+@media (min-width:320px) and (max-width:425px) {
+
+    .STIRD_button {
+        width: 49%;
+        max-width: 130px;
+        height: 43px;
+    }
+
+    .STHIRD_whatsapp_btn {
+        Width: 99%;
+        max-width: 200px;
+        Height: 39px;
+        background: #25D366;
+    }
+
+    img.SF_whstsapp {
+        width: 14%;
+    }
+
+    .STHIRD_whatsapp_text {
+        font-weight: 600;
+        font-size: 11px;
+        color: #FFFFFF;
+        margin-left: 2%;
+    }
+
+    #grow_together {
+        display: flex;
+        margin: 84px auto 0 auto;
+        width: 90%;
+        height: 4rem;
+    }
+
+    .STHIRD_summary {
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 23px !important;
+    }
+
+}
+
+@media (min-width:425px) and (max-width:768px) {
+    .STIRD_button {
+        width: 49%;
+        max-width: 130px;
+        height: 43px;
+    }
+
+    .STHIRD_whatsapp_btn {
+        Width: 99%;
+        max-width: 200px;
+        Height: 39px;
+        background: #25D366;
+    }
+
+    img.SF_whstsapp {
+        width: 14%;
+    }
+
+    .STHIRD_whatsapp_text {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-left: 2%;
+    }
+
+    #grow_together {
+        display: flex;
+        margin: 84px auto 0 auto;
+        width: 78%;
+        max-width: 500px;
+        height: 4rem;
+    }
+
+    .STHIRD_summary {
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:1024px) {
+    .STIRD_button {
+        width: 46%;
+        max-width: 215px;
+        height: 53px;
+    }
+
+        .STHIRD_text{
+         width: 60%;
+         max-width: 294px;
+
+        }
+    .STHIRD_whatsapp_btn {
+        Width: 100%;
+        max-width: 241px;
+        Height: 48px;
+        background: #25D366;
+    }
+
+    .STHIRD_whatsapp_text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-left: 2%;
+    }
+
+    #grow_together {
+        display: flex;
+        margin: 114px auto 0 auto;
+        width: 65%;
+        max-width: 672px;
+        height: 6.5rem;
+    }
+
+    .STHIRD_summary {
+        font-weight: 400 !important;
+        font-size: 23px !important;
+        line-height: 32px !important;
+    }
+
+    .STHIRD_background {
+        width: 79%;
+        max-width: 792px;
+        display: inline-flex
+    }
+
+}

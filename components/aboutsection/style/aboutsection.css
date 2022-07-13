@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&display=swap');
+*{
+    overflow-x: hidden;
+}
+.textContainerk{
+max-width: 1076px;
+box-sizing: border-box;
+margin: 0 auto;
+margin-top: 122px;
+/* width: 100%; */
+
+
+}
+.aboutSectionBoxk1 {
+    margin: auto;
+    margin-bottom: 115px;
+    
+}
+.aboutSectionBoxk1 span{
+    /* position: absolute;
+    width: 62px;
+    height: 22px;
+    left: 183px;
+    top: 3690px;
+     */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+   
+    
+}
+.aboutSectionBoxk1 p{
+    /* position: absolute;
+width: 1006px;
+height: 69px;
+left: 217px;
+top: 3747px; */
+max-width: 1006px;
+width: 100%;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: justify;
+
+color: #000000;
+border: 1px solid #000000;
+padding: 23px 35px;
+margin-top: 12px;
+
+}
+@media screen  and (max-width: 425px){
+    /* styles */
+    .textContainerk{
+        width: 95%;
+    }
+    .aboutSectionBoxk1{
+        margin-bottom: 30px;
+    }
+
+    
+    .aboutSectionBoxk1 span{
+        font-size: 14px;
+    }
+    .aboutSectionBoxk1 p{
+        font-size: 18px;
+        line-height: 28px;
+        padding: 14px 23px;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    /* styles */
+    .textContainerk{
+        width: 95%;
+    }
+    .aboutSectionBoxk1{
+        margin-bottom: 30px;
+    }
+
+    
+    .aboutSectionBoxk1 span{
+        font-size: 15px;
+    }
+    .aboutSectionBoxk1 p{
+        font-size: 20px;
+        line-height: 30px;
+        padding: 14px 23px;
+        margin-top: 10px;
+    }
+   
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /* styles */
+    .textContainerk{
+        width: 95%;
+    }
+}
+@media screen and (min-width: 1025px){
+    .textContainerk{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/navbarResponsive.css">
+    <link rel="stylesheet" href="style/menu-responsive.css">
+    <link rel="stylesheet" href="style/menu.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="academy_navbar">
+            <div class="academy_logo">
+                <img src="icons/UX-ProdX Academy Logo.svg" alt="">
+
+
+            </div>
+            <div class="navbar_components">
+                <ul>
+                    <li class="nav_item"><a class="nav_link" href="#">Events</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#">Campus Ambassadors</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#">Internships</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#">About Us</a></li>
+                    <li class="nav_item menuLink"  ><a class="nav_link">
+                            <img src="http://www.uxprodx.com/images/menu.svg" alt=""> Menu
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="menu">
+        <div class="menu-section">
+            <div class="cross-icon">
+                <a href="#"><img src="./icons/Vector10.svg" alt="" class="closeButton"></a>
+            </div>
+
+            <!-- <div class="top-portion"> -->
+            <div class="bold-list">
+                <ul>
+                    <a href="#">
+                        <li>Services</li>
+                    </a>
+                    <a href="#">
+                        <li>Projects</li>
+                    </a>
+                    <a href="#">
+                        <li>Trainings</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                </ul>
+
+            </div>
+
+            <!-- </div> -->
+            <div class="lighter-list">
+                <ul>
+                    <a href="#">
+                        <li>Campus Amabassador Program</li>
+                    </a>
+                    <a href="#">
+                        <li>Careers </li>
+                    </a>
+                    <a href="#">
+                        <li>Internships </li>
+                    </a>
+                    <a href="#">
+                        <li>Blogs</li>
+                    </a>
+                    <a href="#">
+                        <li>Industries</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+
+            </div>
+            <div class="socials">
+                <ul>
+                    <a href="#">
+                        <img src="./icons/icons8-facebook-circled.svg" alt="">
+                        <li>Facebook</li>
+                    </a>
+                    <a href="#">
+                        <img src="./icons/LinkedIn.svg" alt="">
+                        <li>LinkedIn </li>
+                    </a>
+                    <a href="#">
+                        <img src="./icons/Instagram.svg" alt="">
+                        <li>Instagram</li>
+                    </a>
+                    <a href="#">
+                        <img src="./icons/behance.svg" alt="">
+                        <li>Behance</li>
+                    </a>
+                    <a href="#">
+                        <img src="./icons/Dribble.svg" alt="">
+                        <li>Dribble</li>
+                    </a>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.getElementsByClassName('nav_link')[4].addEventListener('click',()=>{
+            document.getElementsByClassName('menu')[0].style.height='100%';
+        })
+
+        document.getElementsByClassName('closeButton')[0].addEventListener('click',()=>{
+            document.getElementsByClassName('menu')[0].style.height='0%';
+        })
+    </script>
+</body>
+</html>

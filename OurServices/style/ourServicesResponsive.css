@@ -1,0 +1,118 @@
+@media (min-width:320px) and (max-width:425px){
+
+    .design{
+        margin-top: 65px;
+    }
+    .researchHeading span {
+         
+        font-size: 28px;
+        
+    }
+    .researchDescription p {
+        font-size: 15px;
+        line-height: 21px;
+        
+    }
+    .researchImg,.designImg {
+        min-width: 103px;
+        width: 10%;
+        max-width: 220px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .researchImg img,.designImg img {
+        width: 94%;
+        height: 49%;
+    }
+
+    .researchDescriptionContainer {
+        
+        margin-top: 40px;
+        
+    }
+    .headingDownContainer {
+        display: flex;
+        margin-top: 5px;
+    }
+
+    .researchCards{
+        min-width: 271px;
+        margin-bottom: 30px;
+    }
+
+    .cardHeading span{
+        font-size: 20px;
+    }
+
+    .cardPara p{
+        font-size: 15px;
+    line-height: 23px;
+    }
+}
+@media (min-width:425px) and (max-width:769px){
+    .design{
+        margin-top: 105px;
+    }
+
+    .researchHeading span {
+         
+        font-size: 35px;
+        
+    }
+    .researchDescription p {
+        
+        font-size: 20px;
+        line-height: 27px;
+        
+    }
+    .researchImg,.designImg {
+        min-width: 120px;
+        width: 10%;
+        max-width: 220px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .researchImg img,.designImg img {
+        width: 94%;
+        height: 57%;
+    }
+
+    .researchDescriptionContainer {
+        
+        margin-top: 70px;
+        
+    }
+
+
+    .researchCards{
+        min-width: 294px;
+        margin-bottom: 30px;
+    }
+
+    .cardHeading span{
+        font-size: 20px;
+    }
+
+    .cardPara p{
+        font-size: 15px;
+    line-height: 23px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+
+    .researchImg ,.designImg{
+        width: 220px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .researchImg img,.designImg img {
+        width: 90%;
+        height: 82%;
+    }
+}

@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+#how_it_works {
+    margin: 104px auto 0 auto;
+    width: 72%;
+    max-width: 1075px;
+}
+
+.SFIFTH_heding {
+    width: 94%;
+    max-width: 868px;
+    margin: auto;
+    text-align: center;
+}
+
+.SFIFTH_summary {
+    width: 95%;
+    max-width: 933px;
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.SFIFTH_head_text {
+    font-weight: 800;
+font-size: 40px;
+line-height: 55px;
+}
+
+.SFIFTH_summary_text {
+    font-weight: 300;
+font-size: 24px;
+line-height: 33px;
+}
+
+.SFIFTH_cards {
+    margin: 36px auto 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1075px;
+    justify-content: space-between;
+}
+
+.Learn-from-experts {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Master-your-trade {
+    width: 70%;
+    max-width: 156px;
+}
+
+.Get-certified {
+    width: 70%;
+    max-width: 156px;
+}
+
+.SFIFTH_card1_img {
+    text-align: center;
+}   
+
+.SFIFTH_card2_img {
+    text-align: center;
+}
+
+.SFIFTH_card3_img {
+    text-align: center;
+}
+
+.SFIFTH_card1_text {
+    text-align: center;
+}
+
+.SFIFTH_card1_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.SFiveT_C1_summary {
+    max-width: 230px;
+    width: 97%;
+    margin: auto;
+}
+
+.SFIFTH_card1_summary {
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+
+.SFIFTH_card2_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.SFiveT_C2_summary {
+    max-width: 230px;
+    width: 95%;
+    margin: auto;
+}
+
+.SFIFTH_card2_text {
+    text-align: center;
+}
+
+.SFIFTH_card2_summary {
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+
+
+.SFIFTH_card3_text {
+    text-align: center;
+}
+
+.SFIFTH_card3_summary {
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+}
+
+.SFIFTH_card3_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}   
+
+.SFiveT_C3_summary {
+    max-width: 230px;
+    width: 78%;
+    margin: auto;
+}
+
+.apply {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.meet {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.offer{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* responsive */
+
+@media (min-width:320px ) and (max-width:425px){
+
+    #how_it_works {
+        margin: 40px auto 0 auto;
+        width: 90%;
+        max-width: 1075px;
+    }
+
+    .SFIFTH_head_text {
+        font-weight: 800;
+        font-size: 23px;
+    }
+
+    .SFIFTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        /* line-height: 33px; */
+    }
+
+    .SFIFTH_summary {
+        margin-top: 0px;
+    }
+
+    .SFIFTH_cards {
+        margin: 15px auto 0 auto;
+        display: grid;
+        width: 100%;
+        max-width: 1075px;
+        justify-content: center;
+    }
+
+    .apply {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .SFIFTH_card1_summary {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .meet {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .SFIFTH_card2_summary {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .offer {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .SFIFTH_card3_summary {
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+}
+
+
+@media (min-width: 425px ) and (max-width: 520px){
+
+    #how_it_works {
+        margin: 40px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+    
+    .SFIFTH_head_text {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    
+    .SFIFTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    
+    .SFIFTH_summary {
+        margin-top: 0px;
+    }
+    
+    .apply {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card1_summary {
+        font-size: 16px;
+    }
+    
+    .meet {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card3_summary {
+        font-size: 16px;
+    }
+    
+    .SFiveT_C2_summary {
+        max-width: 230px;
+        width: 95%;
+        margin: 10px auto 0 auto;
+    }
+
+    .SFIFTH_cards {
+        flex-direction: column;
+        margin: 5px auto 0 auto;
+    }
+}
+
+@media (min-width: 521px ) and (max-width: 768px){
+
+
+    #how_it_works {
+        margin: 40px auto 0 auto;
+        width: 80%;
+        max-width: 1075px;
+    }
+    
+    .SFIFTH_head_text {
+        font-weight: 800;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    
+    .SFIFTH_summary_text {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    
+    .SFIFTH_summary {
+        margin-top: 10px;
+    }
+    
+    .apply {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card1_summary {
+        font-size: 16px;
+    }
+    
+    .meet {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card2_summary {
+        font-size: 16px;
+    }
+    
+    .SFIFTH_card3_summary {
+        font-size: 16px;
+    }
+    
+    .SFiveT_C2_summary {
+        max-width: 230px;
+        width: 95%;
+        margin: 10px auto 0 auto;
+    }
+
+}
+
+@media (min-width:769px ) and (max-width:1024px){
+
+#how_it_works {
+    margin: 55px auto 0 auto;
+    width: 80%;
+    max-width: 1075px;
+}
+
+.SFIFTH_head_text {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 46px;
+}
+
+.SFIFTH_summary_text {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+
+}

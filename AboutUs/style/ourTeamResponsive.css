@@ -1,0 +1,190 @@
+@media (min-width:1024px ) and (max-width:1196px){
+    .ourTeamCards {
+         
+        margin: 0 45px 45px 0;
+        
+    }
+    .ourTeamCards {
+        width: 28%;
+         
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .ourTeamHeading {
+        
+        font-size: 35px;
+        
+    }
+
+    .ourTeamDescription p {
+        
+        font-size: 19px;
+         
+    }
+
+    .ourTeamCards {  width: 32%;
+        max-width: 240px;
+        
+        height: 320px;
+        margin: 0 34px 30px 0;
+         
+    }
+
+    .teamImg {
+        width: 60%;
+        max-width: 110px;
+        border-radius: 50%;
+        height: 110px;
+        background: #FFFFFF;
+    }
+}
+@media (min-width:769px) and (max-width:914px){
+
+    .ourTeamCards {   
+        margin: 0 1% 1% 0;
+         
+    }
+}
+
+
+@media (min-width:425px) and (max-width:769px){
+    .ourTeam {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    
+    #ourTeam {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .ourTeamHeading {
+        font-size: 22px;
+        line-height: 130.9%;
+        margin-top: 0;
+        width: 100%;
+        max-width: 397px;
+        height: auto;
+    }
+.ourTeamDescription{
+    width: 100%;
+    max-width: 614px;
+}
+    .ourTeamDescription p {
+        
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: 21px;
+    }
+    .ourTeamCardContainer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+
+    .ourTeamCards {
+        width: 41%;
+        max-width: 160px;
+        height: 220px;
+        margin: 0 14px 14px 0;
+    }
+    .teamImg {
+        width: 60%;
+        max-width: 66px;
+        border-radius: 50%;
+        height: 66px;
+        background: #FFFFFF;
+    }
+
+    .teamName {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 131.62%;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+    .teamDesignation {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 123.12%;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+}
+
+ 
+
+@media (min-width:320px) and (max-width:425px){
+
+    .ourTeam {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+
+    #ourTeam {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .ourTeamHeading {
+        font-size: 22px;
+        line-height: 130.9%;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .ourTeamDescription p {
+        
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: 21px;
+    }
+    .ourTeamCardContainer {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    .ourTeamCards {
+        width: 41%;
+        min-width: 133px;
+        max-width: 140px;
+        height: 200px;
+        margin: 0 10px 10px 0;
+    }
+    .teamImg {
+        width: 60%;
+        max-width: 66px;
+        border-radius: 50%;
+        height: 66px;
+        background: #FFFFFF;
+    }
+
+    .teamName {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 133.62%;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+    .teamDesignation {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 123.12%;
+        text-align: center;
+        width: 100%;
+        color: #000000;
+    }
+}

@@ -1,0 +1,730 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.framework_firstpage {
+    margin: 0 auto;
+    max-width: 1075px;
+    width: 90%;
+}
+
+.framework_firstpage_1sq {
+    margin: 0 auto;
+    max-width: 1075px;
+    width: 90%;
+}
+
+.framework_container {
+    height: 271px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.our_framework,
+.our_pdlc {
+    margin-top: 32px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-left: 2px;
+
+}
+
+.framework_heading_text,
+.pdlc_heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    height: 56px;
+}
+
+.framework_pragpha_txt {
+    max-width: 706px;
+    height: 134px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.framework_img img {
+    max-height: 265px;
+    max-width: 265px;
+    margin-left: 52px;
+}
+
+
+/******** SUBCONTAINER START ***********/
+.sub_container {
+    height: 586PX;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 110px;
+}
+
+.discoverinfo,
+.desinginfo,
+.defineinfo,
+.bulidinfo,
+.testinginfo {
+    max-width: 527px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 10px;
+    width: 90%;
+    overflow-y: hidden;
+}
+
+.discoverhead,
+.desinghead,
+.bulidhead,
+.definehead,
+.testinghead {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+}
+
+
+/************** SUBSECTION END **********/
+
+/***************PRODUCT LIFECYCLE********/
+
+.sub_container2 {
+    height: 667PX;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 62px;
+}
+
+.pdlc_pragpha {
+    max-width: 706px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.idea_discussion_head,
+.idea_validation_head,
+.prototyping_head,
+.product_developement_head,
+.quality_assurance_head,
+.product_launch_head {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    height: auto;
+
+}
+
+.idea_discussion_info,
+.idea_validation_info,
+.prototyping_info,
+.product_developement_info,
+.quality_assurance_info,
+.product_launch_info {
+    max-width: 527px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 10px;
+    height: auto;
+    width: 93%;
+    overflow-y: hidden;
+}
+
+.pdlc_idea1,
+.pdlc_idea2 {
+    margin-top: 0px;
+}
+
+.pdlc_idea3,
+.pdlc_idea4 {
+    margin-top: 90px;
+}
+
+.pdlc_idea5,
+.pdlc_idea6 {
+    margin-top: 90px;
+}
+
+
+
+/********** RESPONSIVE STYLESHEET ***********/
+@media screen and (min-width:1440px) {
+    .framework_firstpage {
+        max-width: 1075px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .framework_firstpage_1sq {
+        max-width: 1075px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .sub_container2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo,
+    .idea_discussion_info,
+    .idea_validation_info,
+    .prototyping_info,
+    .product_developement_info,
+    .quality_assurance_info,
+    .product_launch_info {
+        width: 95%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .sub_container {
+        height: 586px;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 72px;
+    }
+
+    .framework_firstpage {
+        margin: auto;
+        width: 90%;
+    }
+
+    .framework_firstpage_1sq {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .framework_img img {
+        margin-left: 5px;
+        height: 260px;
+        width: 260px;
+        margin-top: 0px;
+    }
+
+    .meanbox {
+        max-width: 700px;
+        width: 93%;
+        height: auto;
+    }
+
+    .our_framework,
+    .our_pdlc {
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 22px;
+    }
+
+    .sub_container2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+
+    .framework_container {
+        height: auto;
+    }
+    
+.pdlc_idea1,
+.pdlc_idea2 {
+    margin-top: 0px;
+}
+
+.pdlc_idea3,
+.pdlc_idea4 {
+    margin-top: 90px;
+}
+
+.pdlc_idea5,
+.pdlc_idea6 {
+    margin-top: 90px;
+}
+}
+
+@media screen and (max-width:1024px) {
+    .sub_container {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 30px;
+    }
+
+    .framework_firstpage {
+        margin: auto;
+        width: 90%;
+    }
+
+    .framework_firstpage_1sq {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .framework_img img {
+        margin-left: 5px;
+        height: 214px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .meanbox {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .framework_heading_text {
+        font-size: 35px;
+        line-height: 39px;
+        height: 45px;
+    }
+
+    .framework_pragpha_txt {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+
+    .our_framework,
+    .our_pdlc {
+        font-size: 14px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo {
+        font-size: 16px;
+        width: 95%;
+        line-height: 22px;
+    }
+
+    .discoverhead,
+    .desinghead,
+    .bulidhead,
+    .definehead,
+    .testinghead {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .idea_discussion_head,
+    .idea_validation_head,
+    .prototyping_head,
+    .product_developement_head,
+    .quality_assurance_head,
+    .product_launch_head {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .idea_discussion_info,
+    .idea_validation_info,
+    .prototyping_info,
+    .product_developement_info,
+    .quality_assurance_info,
+    .product_launch_info {
+        font-size: 16px;
+        width: 95%;
+        line-height: 22px;
+        margin-top: 5px;
+    }
+
+    .pdlc_heading {
+        font-size: 32px;
+        line-height: 36px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .pdlc_pragpha {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 10px;
+    }
+
+    .sub_container2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+    .framework_container {
+        height: 270px;
+    }
+
+    .discover,
+    .pdlc_idea1,
+    .pdlc_idea2,
+    .desing {
+        margin-top: 0px;
+    }
+
+    .pdlc_idea3,
+    .pdlc_idea4,
+    .define,
+    .bulid {
+        margin-top: 30px;
+    }
+
+    .pdlc_idea5,
+    .pdlc_idea6,
+    .testing {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .sub_container {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 30px;
+    }
+
+    .framework_firstpage {
+        margin: auto;
+        width: 90%;
+    }
+
+    .framework_firstpage_1sq {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .framework_img img {
+        margin-left: 5px;
+        height: 141px;
+        width: auto;
+        margin-top: 50px;
+    }
+
+    .meanbox {
+        width: auto;
+    }
+
+    .meanbox1 {
+        height: auto;
+        width: auto;
+    }
+
+    .framework_heading_text {
+        font-size: 30px;
+        line-height: 39px;
+        height: 50px;
+    }
+
+    .framework_pragpha_txt {
+        font-size: 16px;
+        line-height: 23px;
+        height: auto;
+    }
+
+    .our_framework,
+    .our_pdlc {
+        font-size: 12px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo {
+        font-size: 14px;
+        width: 90%;
+        line-height: 20px;
+        margin-top: auto;
+    }
+
+    .discoverhead,
+    .desinghead,
+    .bulidhead,
+    .definehead,
+    .testinghead {
+        font-size: 17px;
+        line-height: 38px;
+    }
+
+    .idea_discussion_head,
+    .idea_validation_head,
+    .prototyping_head,
+    .product_developement_head,
+    .quality_assurance_head,
+    .product_launch_head {
+        font-size: 17px;
+        line-height: 38px;
+    }
+
+    .idea_discussion_info,
+    .idea_validation_info,
+    .prototyping_info,
+    .product_developement_info,
+    .quality_assurance_info,
+    .product_launch_info {
+        font-size: 14px;
+        width: 90%;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .pdlc_heading {
+        line-height: 36px;
+        font-size: 24px;
+        height: auto;
+        width: auto;
+    }
+
+    .pdlc_pragpha {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .sub_container2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 50px;
+    }
+
+    .framework_container {
+        height: auto;
+    }
+
+    .pdlc_idea1,
+    .pdlc_idea2,
+    .desing,
+    .discover {
+        margin-top: 5px;
+    }
+
+    .pdlc_idea3,
+    .pdlc_idea4,
+    .define,
+    .bulid {
+        margin-top: 30px;
+    }
+
+    .pdlc_idea5,
+    .pdlc_idea6,
+    .testing {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:605px) {
+    .sub_container {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+    }
+
+    .framework_firstpage {
+        margin: auto;
+        width: 90%;
+    }
+
+    .framework_firstpage_1sq {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .sub_container2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 40px;
+    }
+
+    .pdlc_idea2,
+    .desing {
+        margin-top: 30px;
+    }
+
+    .pdlc_idea3,
+    .pdlc_idea4,
+    .define,
+    .bulid {
+        margin-top: 30px;
+    }
+
+    .pdlc_idea5,
+    .pdlc_idea6,
+    .testing {
+        margin-top: 30px;
+    }
+
+    /* .framework_container {
+        height: 245px;
+    } */
+}
+
+@media screen and (max-width:425px) {
+    .subcontainer {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+    }
+
+    .framework_firstpage {
+        margin: auto;
+        width: 90%;
+    }
+
+    .framework_firstpage_1sq {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .framework_img img {
+        margin-left: 5px;
+        height: 88px;
+        width: auto;
+        margin-top: 71px;
+    }
+
+    .meanbox {
+        width: auto;
+    }
+
+    .framework_heading_text {
+        font-size: 25px;
+        line-height: 30px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .framework_pragpha_txt {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 7px;
+    }
+
+    .our_framework {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .discoverinfo,
+    .desinginfo,
+    .defineinfo,
+    .bulidinfo,
+    .testinginfo {
+        font-size: 12px;
+        width: auto;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .discoverhead,
+    .desinghead,
+    .bulidhead,
+    .definehead,
+    .testinghead {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .idea_discussion_head,
+    .idea_validation_head,
+    .prototyping_head,
+    .product_developement_head,
+    .quality_assurance_head,
+    .product_launch_head {
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+
+    .idea_discussion_info,
+    .idea_validation_info,
+    .prototyping_info,
+    .product_developement_info,
+    .quality_assurance_info,
+    .product_launch_info {
+        font-size: 12px;
+        width: auto;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .pdlc_heading {
+        font-size: 20px;
+        line-height: 22px;
+        height: 70px;
+    }
+
+    .pdlc_pragpha {
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: -2px;
+    }
+
+    .subcontainer2 {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 30px;
+    }
+
+    .framework_container {
+        height: auto;
+    }
+
+    .pdlc_idea2 {
+        margin-top: 30px;
+    }
+
+    .pdlc_idea3,
+    .pdlc_idea4 {
+        margin-top: 30px;
+    }
+
+    .pdlc_idea5,
+    .pdlc_idea6 {
+        margin-top: 30px;
+    }
+}

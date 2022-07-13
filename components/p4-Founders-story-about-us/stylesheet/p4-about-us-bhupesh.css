@@ -1,0 +1,365 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'Manrope';
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+.section_heading_we_serve {
+    width: 95%;
+    max-width: 1075px;
+    margin: 117px auto 0 auto;
+}
+
+.our_services_WS {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    width: 92px;
+}
+
+.PDL_WS {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.we_serve_summary_WS {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 706px;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.about_louder_gif {
+    max-width: 345px;
+    width: 33%;
+}
+
+.we_serve_WS {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1066px;
+    width: 100%;
+}
+
+
+
+/* section two */
+
+.founders_story_section {
+    width: 95%;
+    max-width: 1075px;
+    margin: 127px auto 0 auto;
+}
+
+.founders_story_heading {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    width: 306px;
+}
+
+.founders_story_summary {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    max-width: 1075px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.founders_story_list {
+    display: flex;
+    max-width: 453px;
+    width: 91%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+span.for_circle {
+    width: 16px;
+    height: 16px;
+    color: black;
+    background: black;
+    border-radius: 50px;
+    margin-right: 13px;
+}
+
+.founders_list_margin {
+    width: 230px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-right: 14px; */
+    align-items: center;
+}
+
+.we_do_WS {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+
+/* Responsive styles */
+
+@media(min-width:320px) and (max-width:425px){
+    .section_heading_we_serve {
+        width: 90%;
+        max-width: 1075px;
+        margin: 40px auto 0 auto;
+    }
+
+    .we_serve_heading_WS {
+        width: 60%;
+    }
+
+    .PDL_WS {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        max-width: 676px;
+        width: 100%;
+    }
+
+    .we_serve_summary_WS {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        max-width: 706px;
+        width: 100%;
+        margin-top: 14px;
+    }
+    .about_louder_gif {
+        max-width: 300px;
+        width: 41%;
+        height: min-content;
+        margin: auto;
+
+    }
+
+    /* section two */
+
+    section.founders_story_section {
+        width: 90%;
+        max-width: 1075px;
+        margin: 40px auto 0 auto;
+    }
+
+    .founders_story_heading {
+        max-width: 676px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .founders_story_summary {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 23px;
+        max-width: 706px;
+        width: 100%;
+        margin-top: 14px;
+    }
+
+
+
+
+    .founders_story_list {
+        display: flex;
+        max-width: 381px;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    span.for_circle {
+        width: 10px;
+        height: 10px;
+        color: black;
+        background: black;
+        border-radius: 50px;
+        margin-right: 8px;
+    }
+
+    .we_do_WS {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+}
+
+
+@media(min-width:426px) and (max-width:768px){
+    .section_heading_we_serve {
+        width: 90%;
+        max-width: 1075px;
+        margin: 55px auto 0 auto;
+    }
+
+    .we_serve_heading_WS {
+        width: 60%;
+    }
+
+    .PDL_WS {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        max-width: 676px;
+        width: 100%;
+    }
+
+    .we_serve_summary_WS {
+        font-weight: 300;
+        font-size: 17px;
+    line-height: 27px;
+        max-width: 706px;
+        width: 100%;
+        margin-top: 14px;
+    }
+    .about_louder_gif {
+        max-width: 227px;
+        width: 41%;
+        height: fit-content;
+        margin: auto;
+    }
+
+
+    /* second Section */
+
+    section.founders_story_section {
+        width: 90%;
+        max-width: 1075px;
+        margin: 55px auto 0 auto;
+    }
+
+    .founders_story_heading {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 35px;
+        max-width: 676px;
+        width: 100%;
+    }
+
+    .founders_story_summary {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 27px;
+        max-width: 706px;
+        width: 100%;
+        margin-top: 14px;
+    }
+
+
+    .founders_story_list {
+        display: flex;
+        max-width: 405px;
+        width: 100%;
+        justify-content: space-between;
+    margin-top: 10px;
+    }
+
+    span.for_circle {
+        width: 13px;
+        height: 13px;
+        color: black;
+        background: black;
+        border-radius: 50px;
+        margin-right: 13px;
+    }
+
+    .we_do_WS {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+}
+
+@media(min-width:769px) and (max-width:1024px){
+
+    .section_heading_we_serve {
+        width: 90%;
+        max-width: 1075px;
+        margin: 75px auto 0 auto;
+    }
+
+    .PDL_WS {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+        max-width: 676px;
+        width: 100%;
+    }
+    .we_serve_summary_WS {
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    /* section two */
+
+    section.founders_story_section {
+        width: 90%;
+        max-width: 1075px;
+        margin: 75px auto 0 auto;
+    }
+
+    .founders_story_heading {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+        max-width: 676px;
+        width: 100%;
+    }
+
+    .founders_story_summary {
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+
+    .founders_story_list {
+        display: flex;
+        max-width: 405px;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    span.for_circle {
+        width: 15px;
+        height: 15px;
+        color: black;
+        background: black;
+        border-radius: 50px;
+        margin-right: 13px;
+    }
+
+    .we_do_WS {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+}

@@ -1,0 +1,231 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: 'Manrope';
+}
+
+body {
+    font-family: 'Manrope';
+}
+
+.section_heading_we_serve {
+    width: 95%;
+    max-width: 1075px;
+    margin: 135px auto 0 auto;
+}
+
+.our_services_WS {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    width: 92px;
+}
+
+.PDL_WS {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    max-width: 676px;
+    width: 98%;
+}
+
+.we_serve_summary_WS {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    max-width: 706px;
+    width: 92%;
+    margin-top: 14px;
+}
+
+.compo_gif {
+    max-width: 300px;
+    width: 28%;
+}
+
+.we_serve_WS {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1066px;
+    width: 100%;
+}
+
+.we_do_list {
+    display: flex;
+    max-width: 565px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.we_do_WS {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+span.for_circle {
+    width: 16px;
+    height: 16px;
+    color: black;
+    background: black;
+    border-radius: 50px;
+    margin-right: 13px;
+}
+
+.for_circle_margin {
+    width: 134px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Responsive stylesheet */
+
+
+@media(min-width:320px) and (max-width:425px){
+    .section_heading_we_serve {
+        width: 90%;
+        margin: 40px auto 0 auto;
+    }
+
+    .we_serve_heading_WS {
+        width: 60%;
+    }
+
+    .PDL_WS {
+        font-size: 22px;
+        line-height: 30px;
+        width: 100%;
+    }
+
+    .we_serve_summary_WS {
+        font-size: 15px;
+        line-height: 23px;
+        width: 100%;
+    }
+
+    .compo_gif {
+        width: 41%;
+        height: min-content;
+        margin: auto;
+
+    }
+
+    .we_do_list {
+        max-width: 381px;
+        margin-top: 10px;
+    }
+
+    .we_do_WS {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    span.for_circle {
+        width: 10px;
+        height: 10px;
+        margin-right: 8px;
+    }
+}
+
+
+@media(min-width:426px) and (max-width:768px){
+    .section_heading_we_serve {
+        width: 90%;
+        margin: 55px auto 0 auto;
+    }
+
+    .we_serve_heading_WS {
+        width: 60%;
+    }
+
+    .PDL_WS {
+        font-size: 24px;
+        line-height: 35px;
+        width: 100%;
+    }
+
+    .we_serve_summary_WS {
+        font-size: 17px;
+        line-height: 27px;
+        width: 100%;
+    }
+    .compo_gif {
+        max-width: 227px;
+        width: 41%;
+        height: fit-content;
+        margin: auto;
+    }
+
+    .we_do_list {
+        display: flex;
+        max-width: 405px;
+        width: 100%;
+        justify-content: space-between;
+    margin-top: 10px;
+    }
+
+    .we_do_WS {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    span.for_circle {
+        width: 13px;
+        height: 13px;
+        color: black;
+        background: black;
+        border-radius: 50px;
+        margin-right: 13px;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px){
+
+    .section_heading_we_serve {
+        width: 90%;
+        max-width: 1075px;
+        margin: 75px auto 0 auto;
+    }
+
+    .PDL_WS {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+        max-width: 676px;
+        width: 100%;
+    }
+    .we_serve_summary_WS {
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .we_do_list {
+        display: flex;
+        max-width: 405px;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .we_do_WS {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    span.for_circle {
+        width: 15px;
+        height: 15px;
+        color: black;
+        background: black;
+        border-radius: 50px;
+        margin-right: 13px;
+    }
+}

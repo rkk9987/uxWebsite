@@ -1,0 +1,65 @@
+* {
+  font-family: "Manrope", sans-serif;
+  overflow-x: hidden;
+}
+
+#availabel_container {
+  max-width: 1074px;
+  height: 108px;
+  margin: auto;
+  font-family: "Manrope", sans-serif;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+
+#main_content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Ux_prodx {
+  font-family: "Manrope", sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+  font-style: normal;
+}
+
+/* ----------------------Responsive css---------------- */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  /* section1 */
+  #availabel_container {
+    height: 90px;
+  }
+
+  .Ux_prodx {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  /* sexction1 */
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  /* section1 */
+  #availabel_container {
+    height: 106px;
+  }
+
+  .Ux_prodx {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  /* Section1 */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Ux_prodx {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

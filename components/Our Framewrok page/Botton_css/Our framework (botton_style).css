@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+#button_container {
+    max-width: 1075px;
+    height: 594px;
+    margin: auto;
+    background-color: #F7F4BA;
+    margin-top: 226px;
+    margin-bottom: 114px;
+}
+
+.first_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    
+}
+
+.top_text{
+    display: inline;
+    color: #000000;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+}
+
+
+
+
+.second_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px auto;
+  
+}
+
+.second_text span{
+    display: inline;
+    font-family: 'Manrope', sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 55px;
+    line-height: 82px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-weight:800;
+    width: 835px;
+    height: 82px;
+}
+
+.botton_down{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botton_down button{
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 385px;
+    height: 119px;
+    font-weight: 400;   
+    line-height: 55px;
+    text-align: center;
+    align-items:center ;
+    font-size: 40px;
+    margin-top: 1%;
+    background-color: #F7F4BA;
+    margin-bottom: 2%;
+
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+/* ----------------------------------Responsive Section------------------------------- */
+
+@media (min-width: 320px) and (max-width: 425px) {
+   #button_container {
+      width: 81%;
+      height: 285px;
+    }
+  
+    .first_text{
+      margin-top: 80px;
+    
+    }
+  
+    .second_text span{
+      margin-bottom: 0px;
+      width: 80%;
+      font-size: 16px;
+      line-height: 79px;
+      margin-top: 0px;
+    }
+  
+    .top_text {
+      font-size: 15px;
+      line-height: 25px;
+  
+    }
+  
+    .botton_down button {
+      width: 162px;
+      height: 52px;
+      line-height: 38px;
+      font-size: 20px;
+    }
+    
+  }
+  
+  
+  
+  @media (min-width: 425px) and (max-width: 768px) {
+  #button_container {
+      width: 80%;  
+      height: 300px; 
+    }
+  
+  
+    .first_text{
+      margin-top: 67px;
+    }
+  
+    .second_text span {
+      margin-bottom: 0px;
+      width: 65%;
+      font-size: 15px;
+    }
+  
+    .top_text {
+      font-size: 20px;
+      line-height: 38px;
+    }
+  
+    .botton_down button {
+      width: 180px;
+      height: 53px;
+      line-height: 37px;
+      font-size: 21px;
+    
+    }
+    .second_text span{
+      margin-bottom: 0px;
+      width: 74%;
+      font-size: 19px;
+      line-height: 66px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1280px) {
+  #button_container {
+      width: 70%;
+      height: 400px;
+    }
+  
+    .first_text {
+      margin-top: 90px;
+  }
+  
+    .second_text span {
+      font-size: 32px;
+      line-height: 48px;
+      width: 80%;
+      margin-bottom: 0px;
+  
+    }
+    .top_text {
+      font-size: 28px;
+      line-height: 52px;
+    }
+  
+    .botton_down button {
+      width: 262px;
+      height: 77px;
+      line-height: 46px;
+      font-size: 33px;
+  
+    }
+  }
+  
